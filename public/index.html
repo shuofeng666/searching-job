@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Research internships focused on HCI, human-AI interaction, design tools and research mentorship."/>
+  <title>Research Intern Radar</title><link rel="stylesheet" href="/style.css"/>
+</head><body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">✳</div><div><b>RESEARCH<br/>RADAR</b><small>CAREER INTELLIGENCE</small></div></div>
+    <div class="side-label">WORKSPACE</div>
+    <nav aria-label="Navigation">
+      <button class="nav-item active" data-view="feed"><span>▦</span> 机会雷达 <em id="navTotal">0</em></button>
+      <button class="nav-item" data-view="saved"><span>☆</span> 我的收藏 <em id="navSaved">0</em></button>
+      <button class="nav-item" data-view="targets"><span>◈</span> 研究团队 <em id="targetCount">30</em></button>
+      <button class="nav-item" data-view="activity"><span>◷</span> 监测记录</button>
+      <button class="nav-item" data-view="settings"><span>⚙</span> 配置与说明</button>
+    </nav>
+    <div class="sidebar-bottom">
+      <span class="side-label">YOUR RESEARCH DNA</span>
+      <div class="research-tags"><span>HCI</span><span>Human–AI</span><span>Design tools</span><span>CAD</span><span>CSCW</span><span>Fabrication</span></div>
+      <div class="side-foot">Summer 2027 · US / CA / SG / HK</div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><span class="breadcrumb">WORKSPACE <span>/</span> <strong id="pageTitle">机会雷达</strong></span>
+      <div class="top-right"><span class="status-led" id="liveLed"></span><span id="liveStatus">正在检查数据源</span><button class="icon-button" title="刷新页面数据" id="reloadBtn">↻</button></div>
+    </header>
+    <div class="content">
+      <section class="hero">
+        <div><div class="eyebrow">YOUR PERSONAL RESEARCH OPPORTUNITY ENGINE <span class="sparkle">✦</span></div>
+          <h1>Find your next<br/><span>research frontier.</span></h1>
+          <p>不是普通求职网站。为 HCI PhD 筛选真正有研究含量的 2027 暑期机会。</p>
+          <div class="hero-meta"><span>◉ 4 个国家 / 地区</span><span>✧ Research-first</span><span>⌁ 每日自动扫描</span></div>
+        </div>
+        <div class="hero-actions"><button id="scanBtn" class="primary">↗ 打开 GitHub 手动扫描</button><small id="lastScan">尚未执行任何检索</small></div>
+      </section>
+      <section class="metrics" id="metrics"></section>
+      <section id="feedView" class="view">
+        <div class="section-heading"><div><div class="overline">DISCOVERY FEED</div><h2>研究实习机会 <span class="muted" id="feedCount"></span></h2></div><button class="subtle-btn" id="addBtn">＋ 手动添加线索</button></div>
+        <div class="filter-toolbar">
+          <div class="searchfield"><span>⌕</span><input id="searchInput" placeholder="搜索研究方向、公司或岗位..." aria-label="搜索岗位"/></div>
+          <select id="regionFilter" aria-label="按地区筛选"><option value="all">全部地区</option><option value="US">🇺🇸 美国</option><option value="CA">🇨🇦 加拿大</option><option value="SG">🇸🇬 新加坡</option><option value="HK">🇭🇰 香港</option></select>
+          <select id="sourceFilter" aria-label="按来源筛选"><option value="all">全部线索</option><option value="job">职位搜索结果</option><option value="web">研究实验室网页</option><option value="manual">手动添加</option></select>
+          <select id="sortFilter" aria-label="排序"><option value="score">相关性排序</option><option value="recent">最新发现</option></select>
+        </div>
+        <div class="inline-filters"><button class="pill active" data-filter="all">全部</button><button class="pill" data-filter="high">研究关联强</button><button class="pill" data-filter="new">未处理</button><button class="pill" data-filter="applied">已申请</button><button class="pill" data-filter="dismissed">已排除</button><span class="hint">相关性为规则筛选，不是录取概率。</span></div>
+        <div class="job-list" id="jobList"></div>
+      </section>
+      <section id="savedView" class="view hidden"><div class="section-heading"><div><div class="overline">SHORTLIST</div><h2>我的研究机会收藏</h2></div></div><div id="savedList" class="job-list"></div></section>
+      <section id="targetsView" class="view hidden"><div class="section-heading"><div><div class="overline">RESEARCH GROUP MAP</div><h2>长期跟踪的研究团队</h2><p class="section-sub">这些是研究团队目标，不代表招聘已开放。优先大型公司；大学/研究所是补充渠道。</p></div></div><div class="target-grid" id="targetGrid"></div></section>
+      <section id="activityView" class="view hidden"><div class="section-heading"><div><div class="overline">OBSERVABILITY</div><h2>检索历史与错误</h2></div></div><div id="runsList"></div></section>
+      <section id="settingsView" class="view hidden"><div class="section-heading"><div><div class="overline">HOW IT WORKS</div><h2>监测与 API 配置</h2></div></div><div class="settings-grid" id="configPanel"></div></section>
+    </div>
+  </main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-card"><div class="modal-head"><h2 id="modalTitle">添加机会</h2><button class="modal-close" id="closeModal" aria-label="关闭">×</button></div>
+  <form id="leadForm"><label>岗位名称<input name="title" required maxlength="240" placeholder="Research Intern, HCI"/></label>
+  <label>公司 / 实验室<input name="company" required maxlength="240" placeholder="Autodesk Research"/></label>
+  <div class="form-row"><label>地区<select name="region"><option value="US">美国</option><option value="CA">加拿大</option><option value="SG">新加坡</option><option value="HK">香港</option></select></label><label>城市<input name="location" placeholder="Toronto"/></label></div>
+  <label>官方岗位链接（必须是 http 或 https）<input name="url" type="url" required placeholder="https://..."/></label>
+  <label>职位简介（可选）<textarea name="description" rows="3" placeholder="写下研究内容与资格要求..."></textarea></label>
+  <button class="primary" type="submit">添加到雷达</button></form>
+ </div>
+</div>
+<script src="/app.js" defer></script></body></html>
