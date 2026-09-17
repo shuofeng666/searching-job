@@ -1,539 +1,70 @@
 {
   "jobs": [
     {
-      "id": "f80982be85b6ab5cd955",
-      "title": "AI Foundations - Software Engineer - Research Internship ...",
-      "company": "IBM",
-      "location": "United States (search context only)",
+      "id": "a4f30ff2d7e62d5a1d5e",
+      "title": "[Summer 2027] Product Design Intern",
+      "company": "Roblox",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "job",
+      "description": "... [Summer 2027] Product Design Intern. ... A career at Roblox means you'll be working to shape the future of human interaction ...",
+      "url": "https://careers.roblox.com/jobs/8143984",
+      "source": "Employer-domain search result",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": 68,
+      "reasons": [
+        "Official employer domain",
+        "Relevant HCI/design research language"
+      ],
+      "flags": [
+        "Verify posting is open",
+        "Verify Summer start, PhD and work authorization",
+        "No official deadline verified"
+      ],
+      "first_seen": "2026-09-17T19:23:59+00:00",
+      "last_seen": "2026-09-17T19:23:59+00:00"
+    },
+    {
+      "id": "c30cddb78ca7da8100af",
+      "title": "[Summer 2027] Product Management Intern",
+      "company": "Roblox",
       "region": "US",
-      "kind": "web",
-      "description": "AI Foundations - Software Engineer - Research Internship 2027 ... Introduction At IBM Research, we are the innovation engine of IBM.",
-      "url": "https://www.dice.com/job-detail/9d9edfe4-6b62-4d98-ae97-b808a050f5e3",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Sep 5, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "eaa1a1daed6e6df6bbc6",
-      "title": "AI Foundations - Research Scientist - Research Internship",
-      "company": "IBM",
-      "location": "United States (search context only)",
-      "region": "US",
-      "kind": "web",
-      "description": "... Research Internship - 2027. Date posted. 03-Sep-2026. Job ID. 131827. City / Township / Village. Yorktown Heights, San Jose, Cambridge. State ...",
-      "url": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Research-Scientist-Research-Internship-2027/131827",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Sep 3, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "ae16c62ceafbe733fd8d",
-      "title": "NVIDIA Research Internship 2027 (Paid) Apply: https ...",
-      "company": "NVIDIA",
-      "location": "United States (search context only)",
-      "region": "US",
-      "kind": "web",
-      "description": "Join NVIDIA's Research Internship Program and collaborate with world-class researchers on groundbreaking technologies. Benefits: ✓ Paid ...",
-      "url": "https://www.facebook.com/oppradar/posts/nvidia-research-internship-2027-paidapply-looking-to-gain-hands-on-experience-in/122219517728296244",
-      "source": "Web search / SerpApi; unverified",
+      "location": "US",
+      "kind": "job",
+      "description": "A career at Roblox means you'll be working to shape the future of human interaction ... [Summer 2027] Product Design Intern. San Mateo, CA, United States. View ...",
+      "url": "https://careers.roblox.com/jobs/8143981",
+      "source": "Employer-domain search result",
       "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": 68,
       "reasons": [
-        "Large organization or research institute",
-        "Research position"
+        "Official employer domain",
+        "Relevant HCI/design research language"
       ],
       "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "3699fac673cd11d292ad",
-      "title": "Ibm Research Intern Jobs in United States (43 Open Roles)",
-      "company": "IBM",
-      "location": "United States (search context only)",
-      "region": "US",
-      "kind": "web",
-      "description": "AI Foundations - Research Scientist - Research Internship - 2027. AI Foundations - Research Scientist - Research Internship - 2027. IBM. Cambridge, MA. Actively ...",
-      "url": "https://www.linkedin.com/jobs/ibm-research-intern-jobs",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
+        "Verify posting is open",
+        "Verify Summer start, PhD and work authorization",
+        "No official deadline verified"
       ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "efa9c6f640fb624845e9",
-      "title": "IBM AI Research Internship 2027 Applications Now Open",
-      "company": "IBM",
-      "location": "United States (search context only)",
-      "region": "US",
-      "kind": "web",
-      "description": "The IBM AI Research Internship offers students and researchers an opportunity to work on advanced AI and technology projects alongside leading ...",
-      "url": "https://opportunitiesfeed.com/2026/06/18/ibm-ai-research-internship-2027",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Jun 18, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "1d13c48f0827bb513f74",
-      "title": "Research Internship 2027 @ IBM - Software Engineer",
-      "company": "IBM",
-      "location": "United States (search context only)",
-      "region": "US",
-      "kind": "web",
-      "description": "Apply to AI Foundations - Software Engineer - Research Internship 2027 at IBM on Jobright: Elevate Your Search with an AI Copiloted Experience ...",
-      "url": "https://jobright.ai/jobs/info/6a994f82138838706058d599?visit=2027-intern---software-engineer-%28crewed-land%29---slidell%2C-la-jobs-in-united-states",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Sep 3, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "cdb24bebf02a11ad6c2a",
-      "title": "AI Foundations - Software Engineer - Research Internship ...",
-      "company": "IBM",
-      "location": "Canada (search context only)",
-      "region": "CA",
-      "kind": "web",
-      "description": "AI Foundations - Software Engineer - Research Internship 2027 · Foundational ML Knowledge: Familiarity with core concepts of modern AI, including ...",
-      "url": "https://careers.ibm.com/fr_FR/careers/JobDetail/AI-Foundations-Software-Engineer-Research-Internship-2027/131307",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Sep 2, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "0a488b5a6c8a57c436db",
-      "title": "AI Foundations - Research Scientist - Research Internship",
-      "company": "IBM",
-      "location": "Canada (search context only)",
-      "region": "CA",
-      "kind": "web",
-      "description": "... Research Internship - 2027. Date posted. 03-Sep-2026. Job ID. 131827. City / Township / Village. Yorktown Heights, San Jose, Cambridge. State ...",
-      "url": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Research-Scientist-Research-Internship-2027/131827",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "Sep 3, 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "edaa252171a9af20e7b8",
-      "title": "NVIDIA Research Internship 2027 (Paid) Apply: https ...",
-      "company": "NVIDIA",
-      "location": "Canada (search context only)",
-      "region": "CA",
-      "kind": "web",
-      "description": "NVIDIA Research Internship 2027 ... ✓ Contribute to cutting-edge research in robotics, human-AI interaction, embodied AI, and 4D world modeling.",
-      "url": "https://www.instagram.com/p/DZ7oYfxDcfM",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 65,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "HCI / Human-AI"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "0cba9713cf785cd94357",
-      "title": "Ibm Research Intern Jobs in United States (43 Open Roles)",
-      "company": "IBM",
-      "location": "Canada (search context only)",
-      "region": "CA",
-      "kind": "web",
-      "description": "AI Foundations - Research Scientist - Research Internship - 2027. AI Foundations - Research Scientist - Research Internship - 2027. IBM. Cambridge, MA. Actively ...",
-      "url": "https://www.linkedin.com/jobs/ibm-research-intern-jobs",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "40a31c2baa4beb700a87",
-      "title": "AI Foundations - Software Engineer - Research Internship ...",
-      "company": "IBM",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "AI Foundations - Software Engineer - Research Internship 2027. Yorktown Heights, San Jose, Cambridge, New York, Massachusetts, California, ...",
-      "url": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Software-Engineer-Research-Internship-2027/131307",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "2 Sept 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "fe661997cde7d4438854",
-      "title": "NVIDIA Research Internship 2027 (Paid) Apply: https ...",
-      "company": "NVIDIA",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "NVIDIA Research Internship 2027 ... ✓ Contribute to cutting-edge research in robotics, human-AI interaction, embodied AI, and 4D world modeling.",
-      "url": "https://www.instagram.com/p/DZ7oYfxDcfM",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 65,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "HCI / Human-AI"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "bfd1e08052c8156bf190",
-      "title": "Ibm Research Intern Jobs in United States (43 Open Roles)",
-      "company": "IBM",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "AI Foundations - Research Scientist - Research Internship - 2027. AI Foundations - Research Scientist - Research Internship - 2027. IBM. Cambridge, MA. Actively ...",
-      "url": "https://www.linkedin.com/jobs/ibm-research-intern-jobs",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "47671537517a36cca74a",
-      "title": "Research Intern, AI-Mediated Reality and Interaction ...",
-      "company": "NVIDIA",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "... human-AI interaction ... Interested graduate students should email, specifically with the subject titled “Seeking Research Internship 2027”, the team lead or ...",
-      "url": "https://research.nvidia.com/labs/amri/post/internships_for_summer_2027",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 65,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "HCI / Human-AI"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "c002e0be2cca655306f1",
-      "title": "IBM: AI Foundations - Research Scientist",
-      "company": "IBM",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "IBM. AI Foundations - Research Scientist - Research Internship - 2027. 3 locations. Internship. Paid. Apply. Responsibilities. Introduction.",
-      "url": "https://www.wayup.com/i-Technology-j-AI-Foundations-Research-Scientist-Research-Internship-2027-IBM-639436167386951",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "3 Sept 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "a447bf7e4c5dbffb7bc6",
-      "title": "NVIDIA Research internship Program 2027",
-      "company": "NVIDIA",
-      "location": "Singapore (search context only)",
-      "region": "SG",
-      "kind": "web",
-      "description": "It's a flagship research internship program at NVIDIA designed for graduate students currently enrolled in a master's or PhD program in relevant ...",
-      "url": "https://opportunitiesradar.com/nvidia-research-internship-program-2027",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "23 Jun 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 60,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "PhD mentioned"
-      ],
-      "flags": [
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "3a6c8fd5aa64624faf32",
-      "title": "AI Foundations - Software Engineer - Research Internship ...",
-      "company": "IBM",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "AI Foundations - Software Engineer - Research Internship 2027. Technology.",
-      "url": "https://bebee.com/us/jobs/ai-foundations-software-engineer-research-internship-2027-ibm-cambridge--fj-2343708730",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "22164c43cae7693b2d49",
-      "title": "Ibm Research Intern Jobs in United States (43 Open Roles)",
-      "company": "IBM",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "AI Foundations - Research Scientist - Research Internship - 2027. AI Foundations - Research Scientist - Research Internship - 2027. IBM. Cambridge, MA. Actively ...",
-      "url": "https://www.linkedin.com/jobs/ibm-research-intern-jobs",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "c73fcdb245abf45a2f75",
-      "title": "NVIDIA Research Internship 2027 (Paid) Apply: https ...",
-      "company": "NVIDIA",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "NVIDIA Research Internship 2027 ... ✓ Contribute to cutting-edge research in robotics, human-AI interaction, embodied AI, and 4D world modeling.",
-      "url": "https://www.instagram.com/p/DZ7oYfxDcfM",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 65,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "HCI / Human-AI"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "1c1eca248a5f9abcafce",
-      "title": "AI Foundations - Research Scientist - Research Internship",
-      "company": "IBM",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "... Research Internship - 2027. Date posted. 03-Sep-2026. Job ID. 131827. City / Township / Village. Yorktown Heights, San Jose, Cambridge. State ...",
-      "url": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Research-Scientist-Research-Internship-2027/131827",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "3 Sept 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "05450c95b8022af2ec53",
-      "title": "NVIDIA Research internship Program 2027",
-      "company": "NVIDIA",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "It's a flagship research internship program at NVIDIA designed for graduate students currently enrolled in a master's or PhD program in relevant ...",
-      "url": "https://opportunitiesradar.com/nvidia-research-internship-program-2027",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "23 Jun 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 60,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position",
-        "PhD mentioned"
-      ],
-      "flags": [
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
-    },
-    {
-      "id": "83b0192fccac94d34676",
-      "title": "IBM AI Research Internship 2027 Applications Now Open",
-      "company": "IBM",
-      "location": "Hong Kong (search context only)",
-      "region": "HK",
-      "kind": "web",
-      "description": "The IBM AI Research Internship offers students and researchers an opportunity to work on advanced AI and technology projects alongside leading ...",
-      "url": "https://opportunitiesfeed.com/2026/06/18/ibm-ai-research-internship-2027",
-      "source": "Web search / SerpApi; unverified",
-      "source_date": "18 Jun 2026",
-      "first_seen": "2026-09-17T19:07:31+00:00",
-      "last_seen": "2026-09-17T19:07:31+00:00",
-      "score": 52,
-      "reasons": [
-        "Large organization or research institute",
-        "Research position"
-      ],
-      "flags": [
-        "Confirm PhD eligibility",
-        "Mentorship and publication scope unverified",
-        "Unverified web lead; confirm actual posting and location"
-      ]
+      "first_seen": "2026-09-17T19:23:59+00:00",
+      "last_seen": "2026-09-17T19:23:59+00:00"
     }
   ],
   "runs": [
+    {
+      "at": "2026-09-17T19:23:59+00:00",
+      "requests": 12,
+      "received": 101,
+      "new_jobs": 2,
+      "new_historical": 0,
+      "errors": [],
+      "status": "success"
+    },
     {
       "at": "2026-09-17T19:07:31+00:00",
       "requests": 12,
@@ -552,7 +83,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-17T19:07:31+00:00",
+  "last_scan": "2026-09-17T19:23:59+00:00",
   "targets": [
     {
       "name": "Autodesk Research · HCI & Visualization",
@@ -764,5 +295,92 @@
       "focus": "Academic HCI; secondary target",
       "url": "https://www.smu.edu.sg/"
     }
-  ]
+  ],
+  "coverage": {
+    "Microsoft": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Meta": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Autodesk": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Adobe": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Atlassian": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Salesforce": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Roblox": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "SG",
+      "raw_results": 9,
+      "matched": 2,
+      "error": null
+    },
+    "Sony": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "HK",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Topic: UX researcher PhD intern": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 2,
+      "matched": 0,
+      "error": null
+    },
+    "Topic: collaborative design fabrication research intern": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Amazon archive 2025": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Snap archive 2026": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    }
+  },
+  "scanner_version": 2
 }
