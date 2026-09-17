@@ -1,21 +1,17 @@
 # Research Internship Deadlines
 
-A deadline-first, HCI-Deadlines-inspired personal tracker for research-oriented Summer 2027 internships in the United States, Canada, Singapore and Hong Kong. The public site is a static Vercel app served from `public/`.
+A deadline-first internship tracker for a PhD interested in HCI, human-AI interaction, CSCW, design tools, CAD and fabrication research. Coverage: United States, Canada, Singapore and Hong Kong; established company research teams take priority over startups and generic algorithm positions.
 
-## What the interface shows
+- **Current opportunities:** `/` and `public/data/feed.json` display 2027 role leads. A search result does not prove that a position is still open, is a Summer 2027 role, or supports visas. Closing dates remain unknown unless checked against a dated official posting. Personal favorites and application notes stay in the current browser, not the public repository.
+- **Historical library:** `/archive.html` and `public/data/archive.json` collect explicit 2025/2026 references from employer-domain search results. History is evidence that a team advertised a role in a particular year, not proof of a recurring opening. Do not infer 2027 opening or deadlines from past dates.
+- **Research teams:** the directory is a watchlist, not evidence that each team is hiring. The historical page also shows which companies have actually been searched and any scan errors.
 
-- Chronological opportunity cards, with research-topic and location filters. Filters can be shared using URL parameters such as `?sub=HCI,CSCW&loc=US,CA`.
-- Official postings verified by inspecting employer pages, labeled separately from unverified search leads and personal entries. The built-in official links are starting points; availability can change.
-- A date is shown only if supported by the source. Google 2027 listings give an **anticipated rolling-window end of February 26, 2027**, not a firm deadline: these are explicitly marked rolling and **never receive a precise countdown**. Unknown deadlines appear under a separate TBA section. A countdown is possible only for an explicitly confirmed closing instant with an offset in the data.
-- Research teams are listed in a separate directory; appearing there does not mean an internship is open.
-- Favorites, notes, application status and manual entries stay in this browser's `localStorage`. They do not sync across devices and are lost when browser site data is cleared.
+## How searches work
 
-## Automatic scanning
+`scanner_v2.py` is run by `.github/workflows/scan.yml` with `SERPAPI_KEY` held privately in GitHub Actions Secrets. The new daily plan uses **12 requests maximum**: Microsoft, Meta, Autodesk and Adobe receive individual searches each run; four other large firms rotate; two queries search specific HCI and research-oriented UX topics; two gradually build the 2025/2026 archive. This rotation does not mean all firms are checked every day. Only URLs on recognized employer domains with explicit years and relevant title/snippet language are automatically admitted. They remain labeled as search leads until their live official pages are checked.
 
-A GitHub Actions workflow `.github/workflows/scan.yml` uses `SERPAPI_KEY` stored under repository Settings → Secrets and variables → Actions, searches for opportunities, and writes results to `public/data/feed.json`. Without the secret, no automated scan is performed. Search results are candidates, not proof of an open vacancy, eligibility, sponsorship or specific research-team assignment.
+The first scan on September 17, 2026 used the older broad-query scanner: 12 requests, 8 Google Jobs timeouts, 36 raw results and 22 largely unverified leads. Some results were third-party reposts, algorithm positions, or wrong country labels. The v2 scan intentionally drops these old unverified records from the active feed instead of silently treating them as official opportunities. It does not fabricate replacements; the 2027 and archive feeds may remain empty until evidence is found.
 
-Deploy by importing this GitHub repository into Vercel, using the project root and `public` as Output Directory. Commits to `main` should deploy automatically if Git integration is configured. No private keys or personal application notes belong in the public repository. AI analysis, email notifications and multi-device synchronization are not enabled in this edition.
+To trigger a scan, configure `SERPAPI_KEY` at GitHub repository Settings → Secrets and variables → Actions and run **Research internship scan** under Actions. Run `python -m unittest discover -s tests -v` to test the scanner before consuming API calls. A scheduled run uses up to 12 SerpApi searches per day (approximately 360 in a 30-day month if every run occurs); check your plan and available credits. GitHub updates `feed.json` and `archive.json`; Vercel will update from `main` only when Git integration is active.
 
-## Research scope
-
-Corporate HCI and visualization research, Human–AI Interaction, creativity support tools, collaborative design/CAD, digital fabrication, and research-oriented UX research. Ordinary product design and pure algorithm internships are filtered out of automated discovery.
+To deploy, import this repository into Vercel as a static project with Output Directory `public` and no build command. API credentials and personal notes must never be committed to the public repository. AI analysis, email notifications, confirmed deadline extraction and cross-device synchronization are not yet enabled.
