@@ -1,0 +1,31 @@
+name: Install scan button in existing dashboard
+on:
+  push:
+    paths:
+      - ui_patch.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify idempotent HTML patch
+        run: python -m unittest discover -s tests -p 'test_ui_patch.py' -v
+      - name: Install scan button without overwriting original design
+        run: python ui_patch.py
+      - name: Commit UI change
+        run: |
+          if git diff --quiet -- public/index.html; then
+            echo 'Scan UI already installed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/index.html
+          git commit -m 'ui: show scan button and historical archive on homepage'
+          git push
