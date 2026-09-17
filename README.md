@@ -1,17 +1,31 @@
 # Research Internship Deadlines
 
-A deadline-first internship tracker for a PhD interested in HCI, human-AI interaction, CSCW, design tools, CAD and fabrication research. Coverage: United States, Canada, Singapore and Hong Kong; established company research teams take priority over startups and generic algorithm positions.
+A deadline-first tracker for Summer 2027 HCI, Human–AI interaction, CSCW, creativity support, CAD and digital fabrication research internships in the US, Canada, Singapore and Hong Kong. Established corporate research teams are tracked separately from actual open vacancies.
 
-- **Current opportunities:** `/` and `public/data/feed.json` display 2027 role leads. A search result does not prove that a position is still open, is a Summer 2027 role, or supports visas. Closing dates remain unknown unless checked against a dated official posting. Personal favorites and application notes stay in the current browser, not the public repository.
-- **Historical library:** `/archive.html` and `public/data/archive.json` collect explicit 2025/2026 references from employer-domain search results. History is evidence that a team advertised a role in a particular year, not proof of a recurring opening. Do not infer 2027 opening or deadlines from past dates.
-- **Research teams:** the directory is a watchlist, not evidence that each team is hiring. The historical page also shows which companies have actually been searched and any scan errors.
+## Website and data integrity
 
-## How searches work
+- `/`: current 2027 research opportunities with deadline/date caveats, topic filters, browser-only favorites, an in-page scan control and coverage indicators for Microsoft, Meta, Adobe and Autodesk.
+- `/archive.html`: historical 2025/2026 search evidence. A previous posting does **not** mean the 2027 position is open.
+- `public/data/feed.json`: current 2027 search leads, scan records and separately retained `watch_leads` when the year is not verified. A search snippet is **not** proof of an active job or a firm deadline.
+- Research-team directory entries are monitoring targets, not open jobs. Company coverage `matched: 0` means zero matches in that particular query, **not** no jobs exist.
 
-`scanner_v2.py` is run by `.github/workflows/scan.yml` with `SERPAPI_KEY` held privately in GitHub Actions Secrets. The new daily plan uses **12 requests maximum**: Microsoft, Meta, Autodesk and Adobe receive individual searches each run; four other large firms rotate; two queries search specific HCI and research-oriented UX topics; two gradually build the 2025/2026 archive. This rotation does not mean all firms are checked every day. Only URLs on recognized employer domains with explicit years and relevant title/snippet language are automatically admitted. They remain labeled as search leads until their live official pages are checked.
+## Automatic and manual scanning
 
-The first scan on September 17, 2026 used the older broad-query scanner: 12 requests, 8 Google Jobs timeouts, 36 raw results and 22 largely unverified leads. Some results were third-party reposts, algorithm positions, or wrong country labels. The v2 scan intentionally drops these old unverified records from the active feed instead of silently treating them as official opportunities. It does not fabricate replacements; the 2027 and archive feeds may remain empty until evidence is found.
+The GitHub Actions workflow `.github/workflows/scan.yml` runs `scanner_v3.py` daily and supports manual dispatch. The GitHub Actions secret `SERPAPI_KEY` is required for paid searches. Each run uses 12 queries: one each for Microsoft, Meta, Autodesk and Adobe; four rotating large companies; two HCI-oriented topic searches; two historical queries. It intentionally filters out generic Product Design, Product Management, algorithm and model-training jobs. Employer-domain snippets with no confirmed hiring year go into `watch_leads`, never into 2027 openings. All search leads need human validation against the real role page, including location, eligibility, working authorization and date.
 
-To trigger a scan, configure `SERPAPI_KEY` at GitHub repository Settings → Secrets and variables → Actions and run **Research internship scan** under Actions. Run `python -m unittest discover -s tests -v` to test the scanner before consuming API calls. A scheduled run uses up to 12 SerpApi searches per day (approximately 360 in a 30-day month if every run occurs); check your plan and available credits. GitHub updates `feed.json` and `archive.json`; Vercel will update from `main` only when Git integration is active.
+The homepage's **立即搜索新岗位** button calls the password-protected Vercel Function in `api/scan.js`. It is disabled until both production environment variables below are configured. The endpoint checks GitHub run status and enforces a 15-minute cooldown, so public visitors cannot trigger paid searches without the password. The password is sent only to the backend for each click, never saved by the browser or committed.
 
-To deploy, import this repository into Vercel as a static project with Output Directory `public` and no build command. API credentials and personal notes must never be committed to the public repository. AI analysis, email notifications, confirmed deadline extraction and cross-device synchronization are not yet enabled.
+### One-time configuration by the repo owner (DO NOT send secrets in chat)
+
+1. In GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens, create a token for owner `shuofeng666`, **Only select repositories** → `searching-job`, **Actions: Read and write** and Metadata: Read (implicit). Do not give broad repository or account access. Choose an expiration date you can renew later.
+2. Open Vercel → `searching-job` → Settings → Environment Variables. Add **`GH_ACTIONS_TOKEN`** (the fine-grained GitHub token) and **`SCAN_PASSWORD`** (a separate random password of at least 16 characters). Set the variables to **Production** and use Sensitive/Encrypted if offered. They belong in Vercel, not GitHub source files or a browser-visible env variable.
+3. Redeploy the latest **main** production deployment from Vercel → Deployments after adding variables. Open the website and check that the button displays `▶ 立即搜索新岗位`. Press it, enter your chosen scanning password and wait for GitHub Actions. The site updates after the feed commit and successful Git integration deployment.
+4. If the button reports API unavailable, check Vercel Functions and Git integration. The fallback GitHub Actions entry remains available from the homepage; use `workflow_dispatch` → Run workflow.
+
+A single scan consumes up to 12 SerpApi searches. Daily scans are roughly 360/month if all run. Check SerpApi quota. The GitHub token and password are never placed in `public/`, localStorage, query strings, or logs.
+
+## Deployment and tests
+
+Import the GitHub repo into Vercel using repository root, Framework `Other`, Output Directory `public`, and no custom build command. The `/api/scan` Node.js file runs server-side, not as a public static file. Git integration needs to connect the `main` branch for automatic redeployments. Run `python -m unittest discover -s tests -v` to test scanning without paid API calls. `ui_patch.py` idempotently adds the scan UI loader and archive link to the existing design; `.github/workflows/install-scan-ui.yml` installs it on update.
+
+AI review, email notification, reliable automatic deadline extraction and cross-device synchronization are not yet implemented.
