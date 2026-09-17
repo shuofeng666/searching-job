@@ -28,3 +28,5 @@ jobs:
         run: |
           node --check api/scan.js
           node --check public/scan-control.js
+      - name: Serverless authorization and trigger behavior
+        run: node --test tests/test_api_scan.cjs
