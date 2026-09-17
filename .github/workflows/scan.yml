@@ -20,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Install scanner dependencies
         run: python -m pip install 'requests>=2.31,<3'
+      - name: Test scanner before paid search
+        run: python -m unittest discover -s tests -v
       - name: Search official company vacancies and historical internships
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
