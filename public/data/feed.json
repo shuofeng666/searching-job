@@ -31,7 +31,7 @@
         "Year not explicit in job title; placed in research leads"
       ],
       "first_seen": "2026-09-18T13:26:57+00:00",
-      "last_seen": "2026-09-18T13:26:57+00:00"
+      "last_seen": "2026-09-18T17:06:45+00:00"
     },
     {
       "id": "4cd393ed83b0988d582e",
@@ -63,12 +63,12 @@
         "Year not explicit in job title; placed in research leads"
       ],
       "first_seen": "2026-09-18T13:26:57+00:00",
-      "last_seen": "2026-09-18T13:26:57+00:00"
+      "last_seen": "2026-09-18T17:06:45+00:00"
     }
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "CA",
       "raw_results": 9,
       "matched": 0,
@@ -77,7 +77,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Meta": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "US",
       "raw_results": 9,
       "matched": 0,
@@ -86,7 +86,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Autodesk": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "CA",
       "raw_results": 9,
       "matched": 0,
@@ -95,7 +95,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Adobe": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "US",
       "raw_results": 9,
       "matched": 0,
@@ -160,16 +160,14 @@
       "error": null
     },
     "Apple": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "CA",
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "NVIDIA": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "SG",
       "raw_results": 9,
       "matched": 0,
@@ -178,7 +176,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "IBM": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "HK",
       "raw_results": 9,
       "matched": 0,
@@ -187,7 +185,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Amazon": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "US",
       "raw_results": 9,
       "matched": 0,
@@ -196,14 +194,16 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Snap": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "CA",
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
     },
     "Samsung": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "SG",
       "raw_results": 9,
       "matched": 0,
@@ -212,7 +212,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "HK",
       "raw_results": 0,
       "matched": 0,
@@ -221,7 +221,7 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "Topic: XR interaction research internship": {
-      "checked_at": "2026-09-18T13:26:57+00:00",
+      "checked_at": "2026-09-18T17:06:45+00:00",
       "region_searched": "US",
       "raw_results": 0,
       "matched": 0,
@@ -444,6 +444,18 @@
   ],
   "runs": [
     {
+      "at": "2026-09-18T17:06:45+00:00",
+      "requests": 12,
+      "received": 81,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Apple: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-09-18T13:26:57+00:00",
       "requests": 12,
       "received": 81,
@@ -482,7 +494,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-18T13:26:57+00:00",
+  "last_scan": "2026-09-18T17:06:45+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
