@@ -1,0 +1,62 @@
+{
+  "updated_on": "2026-09-17",
+  "note": "Research-group evidence and previous internship programs are NOT current 2027 job postings. Source pages may change. Never infer a deadline or an opening from them.",
+  "groups": [
+    {
+      "id": "autodesk-hci",
+      "company": "Autodesk",
+      "team": "HCI & Visualization Research",
+      "regions": ["US", "CA"],
+      "topics": ["CAD / Fabrication", "Design Tools", "HCI", "Human-AI", "CSCW"],
+      "research_evidence": "Official HCI group describes novel interactive tools, HCI studies and papers at CHI, UIST and DIS. Its research careers page describes mentored research internships.",
+      "research_url": "https://www.research.autodesk.com/research-areas/science/human-computer-interaction-and-visualization/",
+      "internship_url": "https://www.research.autodesk.com/careers/",
+      "historical_evidence": "Official Autodesk account describes six CHI 2026 papers emerging from the previous summer's internships. This is previous-cycle research evidence, not an announced 2027 opening.",
+      "historical_url": "https://www.research.autodesk.com/blog/shaping-creator-centric-ai-autodesk-research-at-chi-2026/",
+      "status": "research_team_only",
+      "current_2027_hiring_confirmed": false
+    },
+    {
+      "id": "adobe-hci",
+      "company": "Adobe",
+      "team": "Adobe Research · Human–Computer Interaction / Creative Tools",
+      "regions": ["US", "CA"],
+      "topics": ["HCI", "Human-AI", "Design Tools", "CAD / Fabrication"],
+      "research_evidence": "Adobe's internship program describes graduate research internships with mentors and possible academic publications; its 2026 page is not a 2027 posting.",
+      "research_url": "https://research.adobe.com/careers/internships/",
+      "internship_url": "https://research.adobe.com/careers/internships/",
+      "historical_evidence": "Adobe's retrospective describes a 2025 HCI intern working on digital fabrication and AI-powered physical controls. It proves prior work on the topic, not a current vacancy.",
+      "historical_url": "https://research.adobe.com/news/the-summer-these-adobe-research-interns-learned-created-and-belonged/",
+      "status": "research_team_only",
+      "current_2027_hiring_confirmed": false
+    },
+    {
+      "id": "microsoft-humanai",
+      "company": "Microsoft",
+      "team": "Microsoft Research · HCI / Human–AI / Tools for Thought",
+      "regions": ["US", "CA", "SG", "HK"],
+      "topics": ["HCI", "Human-AI", "CSCW", "UX Research"],
+      "research_evidence": "Microsoft's official university internship page lists PhD interns, Microsoft Research and UX Research among possible roles; team and country require separate confirmation.",
+      "research_url": "https://careers.microsoft.com/v2/global/en/universityinternship",
+      "internship_url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+      "historical_evidence": "Microsoft Research published a specific Summer 2025 HCI internship about generative AI and meeting goals, based in Cambridge UK. The historical example is outside the four monitored countries and does not establish a 2027 opening.",
+      "historical_url": "https://www.microsoft.com/en-us/research/project/intentional-meetings/summer-2025-internship/",
+      "status": "research_team_only",
+      "current_2027_hiring_confirmed": false
+    },
+    {
+      "id": "meta-userresearch",
+      "company": "Meta",
+      "team": "Meta · User Research / Human Interaction",
+      "regions": ["US", "CA"],
+      "topics": ["HCI", "Human-AI", "UX Research", "XR / HRI"],
+      "research_evidence": "Meta's official AI careers site describes user research work focused on human interaction and experience. This is a research-area signal, not confirmation of a PhD research internship.",
+      "research_url": "https://ai.meta.com/join-us/",
+      "internship_url": "https://www.metacareers.com/",
+      "historical_evidence": "No specific HCI Summer 2025/2026 internship has been verified in this evidence library. Do not substitute a fellowship or algorithm position.",
+      "historical_url": null,
+      "status": "research_team_only",
+      "current_2027_hiring_confirmed": false
+    }
+  ]
+}
