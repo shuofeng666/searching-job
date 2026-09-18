@@ -1,60 +1,5 @@
 {
-  "jobs": [
-    {
-      "id": "a4f30ff2d7e62d5a1d5e",
-      "title": "[Summer 2027] Product Design Intern",
-      "company": "Roblox",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "job",
-      "description": "... [Summer 2027] Product Design Intern. ... A career at Roblox means you'll be working to shape the future of human interaction ...",
-      "url": "https://careers.roblox.com/jobs/8143984",
-      "source": "Employer-domain search result",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": 68,
-      "reasons": [
-        "Official employer domain",
-        "Relevant HCI/design research language"
-      ],
-      "flags": [
-        "Verify posting is open",
-        "Verify Summer start, PhD and work authorization",
-        "No official deadline verified"
-      ],
-      "first_seen": "2026-09-17T19:23:59+00:00",
-      "last_seen": "2026-09-17T19:23:59+00:00"
-    },
-    {
-      "id": "c30cddb78ca7da8100af",
-      "title": "[Summer 2027] Product Management Intern",
-      "company": "Roblox",
-      "region": "US",
-      "location": "US",
-      "kind": "job",
-      "description": "A career at Roblox means you'll be working to shape the future of human interaction ... [Summer 2027] Product Design Intern. San Mateo, CA, United States. View ...",
-      "url": "https://careers.roblox.com/jobs/8143981",
-      "source": "Employer-domain search result",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": 68,
-      "reasons": [
-        "Official employer domain",
-        "Relevant HCI/design research language"
-      ],
-      "flags": [
-        "Verify posting is open",
-        "Verify Summer start, PhD and work authorization",
-        "No official deadline verified"
-      ],
-      "first_seen": "2026-09-17T19:23:59+00:00",
-      "last_seen": "2026-09-17T19:23:59+00:00"
-    }
-  ],
+  "jobs": [],
   "runs": [
     {
       "at": "2026-09-17T19:23:59+00:00",
@@ -382,5 +327,6 @@
       "error": null
     }
   },
-  "scanner_version": 2
+  "scanner_version": 2,
+  "watch_leads": []
 }
