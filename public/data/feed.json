@@ -1,34 +1,235 @@
 {
   "jobs": [],
-  "runs": [
+  "watch_leads": [
     {
-      "at": "2026-09-17T19:23:59+00:00",
-      "requests": 12,
-      "received": 101,
-      "new_jobs": 2,
-      "new_historical": 0,
-      "errors": [],
-      "status": "success"
+      "id": "e9805e1c288e845999b5",
+      "title": "Research Intern, AI-Mediated Reality and Interaction ...",
+      "company": "NVIDIA",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Research Intern, AI-Mediated Reality and Interaction Research - 2027. NVIDIA's AI-Mediated Reality and Interaction (AMRI) Research group is looking for ...",
+      "url": "https://research.nvidia.com/labs/amri/post/internships_for_summer_2027",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-09-18T13:26:57+00:00",
+      "last_seen": "2026-09-18T13:26:57+00:00"
     },
     {
-      "at": "2026-09-17T19:07:31+00:00",
-      "requests": 12,
-      "received": 36,
-      "new_jobs": 22,
-      "errors": [
-        "US/jobs: ReadTimeout",
-        "US/jobs: ReadTimeout",
-        "CA/jobs: ReadTimeout",
-        "CA/jobs: ReadTimeout",
-        "SG/jobs: ReadTimeout",
-        "SG/jobs: ReadTimeout",
-        "HK/jobs: ReadTimeout",
-        "HK/jobs: ReadTimeout"
+      "id": "4cd393ed83b0988d582e",
+      "title": "PhD Research Intern, Autonomous Systems and Physical ...",
+      "company": "NVIDIA",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "NVIDIA Corporation logo - Positions. Join Talent Network ... Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026.",
+      "url": "https://jobs.nvidia.com/careers/job/893397266856",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
       ],
-      "status": "partial"
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-09-18T13:26:57+00:00",
+      "last_seen": "2026-09-18T13:26:57+00:00"
     }
   ],
-  "last_scan": "2026-09-17T19:23:59+00:00",
+  "coverage": {
+    "Microsoft": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Meta": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Autodesk": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Adobe": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Atlassian": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Salesforce": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Roblox": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "SG",
+      "raw_results": 9,
+      "matched": 2,
+      "error": null
+    },
+    "Sony": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "HK",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Topic: UX researcher PhD intern": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 2,
+      "matched": 0,
+      "error": null
+    },
+    "Topic: collaborative design fabrication research intern": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Amazon archive 2025": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Snap archive 2026": {
+      "checked_at": "2026-09-17T19:23:59+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "error": null
+    },
+    "Apple": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "CA",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "NVIDIA": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "SG",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 2,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "IBM": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "HK",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Amazon": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "US",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Snap": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "CA",
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
+    },
+    "Samsung": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "SG",
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Topic: creativity support tools research intern": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "HK",
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Topic: XR interaction research internship": {
+      "checked_at": "2026-09-18T13:26:57+00:00",
+      "region_searched": "US",
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query; not a complete audit of all jobs"
+    }
+  },
   "targets": [
     {
       "name": "Autodesk Research · HCI & Visualization",
@@ -241,92 +442,47 @@
       "url": "https://www.smu.edu.sg/"
     }
   ],
-  "coverage": {
-    "Microsoft": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
+  "runs": [
+    {
+      "at": "2026-09-18T13:26:57+00:00",
+      "requests": 12,
+      "received": 81,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 2,
+      "errors": [
+        "Snap: ReadTimeout"
+      ],
+      "status": "partial"
     },
-    "Meta": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
+    {
+      "at": "2026-09-17T19:23:59+00:00",
+      "requests": 12,
+      "received": 101,
+      "new_jobs": 2,
+      "new_historical": 0,
+      "errors": [],
+      "status": "success"
     },
-    "Autodesk": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "CA",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Adobe": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Atlassian": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Salesforce": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "CA",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Roblox": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "SG",
-      "raw_results": 9,
-      "matched": 2,
-      "error": null
-    },
-    "Sony": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "HK",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Topic: UX researcher PhD intern": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 2,
-      "matched": 0,
-      "error": null
-    },
-    "Topic: collaborative design fabrication research intern": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "CA",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Amazon archive 2025": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
-    },
-    "Snap archive 2026": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 9,
-      "matched": 0,
-      "error": null
+    {
+      "at": "2026-09-17T19:07:31+00:00",
+      "requests": 12,
+      "received": 36,
+      "new_jobs": 22,
+      "errors": [
+        "US/jobs: ReadTimeout",
+        "US/jobs: ReadTimeout",
+        "CA/jobs: ReadTimeout",
+        "CA/jobs: ReadTimeout",
+        "SG/jobs: ReadTimeout",
+        "SG/jobs: ReadTimeout",
+        "HK/jobs: ReadTimeout",
+        "HK/jobs: ReadTimeout"
+      ],
+      "status": "partial"
     }
-  },
-  "scanner_version": 2,
-  "watch_leads": []
+  ],
+  "last_scan": "2026-09-18T13:26:57+00:00",
+  "scanner_version": 4,
+  "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
