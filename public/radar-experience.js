@@ -26,22 +26,23 @@
  .research-workspace .research-item p{font-size:12px;color:#586d81;line-height:1.5;margin:6px 0}
  .research-workspace .research-item small{font-size:11px;color:#63758a;display:block;margin-bottom:7px}
  .research-workspace .research-evidence-link{display:inline-block;margin:5px 10px 0 0;font-size:12px;color:#205e98;text-decoration:underline}
- .research-workspace .research-flag{font-size:10px;background:#fff3dc;color:#81591e;padding:3px 6px;border-radius:4px}
+ .research-workspace .research-signal{border-left:3px solid #6f9d70;background:#f2f8f2;padding:8px 10px;margin:8px 0;font-size:11px;line-height:1.55;color:#3f6443}
  @media(max-width:650px){.research-workspace{padding:14px 12px}.research-workspace .research-grid{grid-template-columns:1fr}}
- </style><div class="research-head"><div><h3>我的研究实习雷达</h3><p class="research-muted">只把 2027 证据放进岗位列表；研究团队、年份不明线索和往年记录独立显示。</p></div><button id="research-reviewed" type="button">✓ 我已查看本轮线索</button></div><div id="research-stats" class="research-stats" role="status" aria-live="polite">正在读取…</div><details id="research-leads"><summary id="research-leads-summary">待核实的研究岗位线索</summary><p class="research-muted">这些链接不是已核实的 Summer 2027 招聘；先检查职位页面和年份，再决定是否加入申请清单。</p><div class="research-grid" id="research-lead-list"></div></details><details id="research-teams"><summary>研究组跟踪：Autodesk、Adobe、Microsoft、Meta</summary><p class="research-muted">有研究方向证据不等于正在招聘。找不到岗位时仍保留研究组、官方招聘入口和历史证据。</p><div class="research-grid" id="research-team-list"></div></details><p class="research-muted" id="research-health">本页只显示搜索证据，申请前请核实官方页面。</p>`;
+ </style><div class="research-head"><div><h3>我的研究实习雷达</h3><p class="research-muted">只把 2027 证据放进岗位列表；研究团队、年份不明线索和往年记录独立显示。</p></div><button id="research-reviewed" type="button">✓ 我已查看本轮线索</button></div><div id="research-stats" class="research-stats" role="status" aria-live="polite">正在读取…</div><details id="research-leads"><summary id="research-leads-summary">待核实的研究岗位线索</summary><p class="research-muted">这些链接不是已核实的 Summer 2027 招聘；先检查职位页面和年份，再决定是否加入申请清单。</p><div class="research-grid" id="research-lead-list"></div></details><details id="research-teams" open><summary>重点研究组与 2027 招聘信号</summary><p class="research-muted">有研究方向或招聘周期证据不等于岗位已经开放。明确宣布的 2027 周期会单独显示。</p><div class="research-grid" id="research-team-list"></div></details><p class="research-muted" id="research-health">本页只显示搜索证据，申请前请核实官方页面。</p>`;
  const toolbar=root.querySelector('.toolbar');root.insertBefore(section,toolbar||root.firstChild);
  const get=id=>section.querySelector('#'+id);
  const date=s=>{try{return s?new Date(s).toLocaleDateString('zh-CN'):'未扫描'}catch{return '未知'}};
  const rejected=/algorithm|foundation model|deep learning|machine learning engineer|\bproduct (?:design|designer|management|manager)\b|marketing|graphic design/i;
  function clean(items){return (Array.isArray(items)?items:[]).filter(x=>x&&typeof x==='object'&&!rejected.test(String(x.title||'')))}
- function item(title,body,urls,meta){const box=make('div','research-item');box.append(make('b','',title));if(meta)box.append(make('small','',meta));box.append(make('p','',body));for(const [url,label] of urls)box.append(link(url,label));return box}
+ function item(title,body,urls,meta,signal){const box=make('div','research-item');box.append(make('b','',title));if(meta)box.append(make('small','',meta));box.append(make('p','',body));if(signal)box.append(make('div','research-signal',signal));for(const [url,label] of urls)box.append(link(url,label));return box}
  function render(feed,evidence){
   const leads=clean(feed.watch_leads),jobs=clean(feed.jobs),groups=Array.isArray(evidence.groups)?evidence.groups:[];
   let reviewed='';try{reviewed=localStorage.getItem(KEY)||''}catch{}
   const fresh=leads.filter(x=>!reviewed||String(x.first_seen||'')>reviewed);
   const newJobs=jobs.filter(x=>!reviewed||String(x.first_seen||'')>reviewed);
+  const announced=groups.filter(g=>g&&g.cycle_signal).length;
   const stats=get('research-stats');stats.replaceChildren();
-  for(const [label,num] of [['2027 搜索线索',jobs.length],['年份待核实',leads.length],['本次未查看',newJobs.length+fresh.length],['监测研究组',groups.length]]){
+  for(const [label,num] of [['2027 搜索线索',jobs.length],['年份待核实',leads.length],['本次未查看',newJobs.length+fresh.length],['已宣布 2027 周期',announced]]){
    const span=make('span');const n=make('strong','',String(num));span.append(n,document.createTextNode(' '+label));stats.append(span);
   }
   get('research-leads-summary').textContent=`待核实的研究岗位线索 · ${leads.length} 条`;
@@ -52,10 +53,12 @@
   if(!leads.length)list.append(make('p','research-muted','目前没有年份待核实的研究职位。没有发现不代表该团队不招聘。'));
   const teamlist=get('research-team-list');teamlist.replaceChildren();
   for(const company of CORE){const group=groups.find(g=>g.company===company);if(!group)continue;
-   const c=feed.coverage?.[company];const status=!c?'尚未执行公司定向搜索':c.error?`搜索失败：${c.error}`:`最近搜索 ${date(c.checked_at)} · 2027 标题线索 ${c.matched??0} · 年份待确认 ${c.unresolved??0}`;
+   const c=feed.coverage?.[company];const regions=Array.isArray(c?.recent_regions)&&c.recent_regions.length?` · 最近覆盖 ${c.recent_regions.join('/')}`:'';
+   const status=!c?'尚未执行公司定向搜索':c.error?`搜索失败：${c.error}${regions}`:`最近搜索 ${date(c.checked_at)} · 2027 标题线索 ${c.matched??0} · 年份待确认 ${c.unresolved??0}${regions}`;
    const urls=[[group.research_url,'研究方向 ↗'],[group.internship_url,'官方招聘入口 ↗']];
    if(group.historical_url)urls.push([group.historical_url,'往年研究证据 ↗']);
-   teamlist.append(item(group.team,group.research_evidence,urls,status));
+   if(group.cycle_signal_url)urls.push([group.cycle_signal_url,'2027 周期来源 ↗']);
+   teamlist.append(item(group.team,group.research_evidence,urls,status,group.cycle_signal||''));
   }
   const last=feed.runs?.[0],lastScan=feed.last_scan;
   const stale=!lastScan||Date.now()-Date.parse(lastScan)>72*3600000;
@@ -68,7 +71,7 @@
  }
  let data={jobs:[],watch_leads:[],coverage:{}},evidence={groups:[]};
  async function refresh(){try{
-  const [a,b]=await Promise.all([fetch('/data/feed.json?x='+Date.now(),{cache:'no-store'}),fetch('/data/research-evidence.json',{cache:'no-store'})]);
+  const [a,b]=await Promise.all([fetch('/data/feed.json?x='+Date.now(),{cache:'no-store'}),fetch('/data/research-evidence.json?x='+Date.now(),{cache:'no-store'})]);
   if(!a.ok||!b.ok)throw Error('fetch failed');data=await a.json();evidence=await b.json();render(data,evidence);
  }catch{get('research-health').textContent='研究证据暂时加载失败。请刷新页面，或通过 GitHub 检查数据文件。';}}
  get('research-reviewed').onclick=()=>{try{localStorage.setItem(KEY,new Date().toISOString())}catch{}render(data,evidence)};
