@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-09-17",
+  "updated_on": "2026-09-18",
   "note": "Research-group evidence and previous internship programs are NOT current 2027 job postings. Source pages may change. Never infer a deadline or an opening from them.",
   "groups": [
     {
@@ -22,12 +22,14 @@
       "team": "Adobe Research · Human–Computer Interaction / Creative Tools",
       "regions": ["US", "CA"],
       "topics": ["HCI", "Human-AI", "Design Tools", "CAD / Fabrication"],
-      "research_evidence": "Adobe's internship program describes graduate research internships with mentors and possible academic publications; its 2026 page is not a 2027 posting.",
-      "research_url": "https://research.adobe.com/careers/internships/",
+      "research_evidence": "Adobe's HCI research page covers creativity-support tools, multimodal interaction, cross-device interaction and visualization. Adobe's internship stories show PhD HCI projects that can lead to publications and product transfer.",
+      "research_url": "https://research.adobe.com/research/human-computer-interaction/",
       "internship_url": "https://research.adobe.com/careers/internships/",
       "historical_evidence": "Adobe's retrospective describes a 2025 HCI intern working on digital fabrication and AI-powered physical controls. It proves prior work on the topic, not a current vacancy.",
       "historical_url": "https://research.adobe.com/news/the-summer-these-adobe-research-interns-learned-created-and-belonged/",
-      "status": "research_team_only",
+      "cycle_signal": "Adobe Research explicitly says applications for 2027 internships will open in fall. No exact opening date or HCI-specific vacancy is published on that page yet.",
+      "cycle_signal_url": "https://research.adobe.com/news/author/mkunz/",
+      "status": "2027_cycle_announced_not_open",
       "current_2027_hiring_confirmed": false
     },
     {
