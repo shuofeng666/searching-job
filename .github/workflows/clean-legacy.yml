@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'sanitize_feed.py'
+      - '.github/workflows/clean-legacy.yml'
   workflow_dispatch:
 permissions:
   contents: write
