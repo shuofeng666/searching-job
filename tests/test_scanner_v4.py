@@ -38,7 +38,7 @@ class ResearchScannerTests(unittest.TestCase):
                       'Research Scientist Full Time 2027'):
             self.assertIsNone(classify(result(title)))
         self.assertIsNone(classify(result('Research Intern HCI 2027', 'https://research.adobe.com/news/intern-story')))
-        self.assertIsNone(classify(result('HCI Research PhD Fellowship 2027'))
+        self.assertIsNone(classify(result('HCI Research PhD Fellowship 2027')))
 
     def test_no_year_is_watch_only(self):
         no_year = result('Human-AI Research Intern', 'https://www.metacareers.com/jobs/12', 'HCI collaboration Summer 2027')
