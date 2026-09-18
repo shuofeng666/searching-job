@@ -31,6 +31,7 @@ CORE_QUERIES = {
  'Autodesk': '"Autodesk Research" ("HCI" OR "fabrication" OR "design tools" OR "agentic canvas") (intern OR internship) 2027',
  'Adobe': '"Adobe Research" ("HCI" OR "creative tools" OR "human AI" OR "UX research") (intern OR internship) 2027',
 }
+TARGET_REGIONS=('US','CA','SG','HK')
 
 def employer(url):
  host=(urlparse(url).hostname or '').lower()
@@ -69,21 +70,21 @@ def classify(raw):
  }
 
 def plan(day):
- """12 searches/day, with a historical pass on Sunday; no duplicate company queries."""
+ """12 searches/day. Every core company rotates through US/CA/SG/HK over four days."""
  tasks=[]
  day_of_week=day % 7
- for company in CORE:
-  region='CA' if company=='Autodesk' else ('US','CA','SG','HK')[day % 4] if company=='Microsoft' else 'US'
+ for offset,company in enumerate(CORE):
+  region=TARGET_REGIONS[(day+offset)%len(TARGET_REGIONS)]
   tasks.append((company,region,CORE_QUERIES[company],False))
  historic=day_of_week==0
  count=4 if historic else 6
  for i in range(count):
   name=ROTATING[(day*count+i)%len(ROTATING)]
-  region=('US','CA','SG','HK')[(day+i)%4]
+  region=TARGET_REGIONS[(day+i)%len(TARGET_REGIONS)]
   tasks.append((name,region,f'"{name}" ("HCI research intern" OR "UX research intern" OR "interaction research" OR "human AI intern" OR "design tools research") 2027',False))
  for i in range(2):
   topic=TOPICS[(day*2+i)%len(TOPICS)]
-  region=('US','CA','SG','HK')[(day+2+i)%4]
+  region=TARGET_REGIONS[(day+2+i)%len(TARGET_REGIONS)]
   tasks.append(('Topic: '+topic,region,f'"{topic}" (intern OR internship) 2027 (Microsoft OR Meta OR Adobe OR Autodesk OR Google OR Apple OR NVIDIA)',False))
  if historic:
   for i,year in enumerate((2025,2026)):
@@ -131,15 +132,20 @@ def scan(key,feed,archive,day=None,search=search_google):
     if target is leads: uncertain+=1
     else: hits+=1
     if target is current: leads.pop(item['id'],None)
-   coverage[label]={'checked_at':stamp,'region_searched':region,'raw_results':len(raw),
+   prior=coverage.get(label) if isinstance(coverage.get(label),dict) else {}
+   recent=[r for r in prior.get('recent_regions',[]) if r in TARGET_REGIONS and r!=region]
+   recent=[region,*recent][:4]
+   coverage[label]={'checked_at':stamp,'region_searched':region,'recent_regions':recent,'raw_results':len(raw),
                     'matched':hits,'unresolved':uncertain,'error':None,
-                    'meaning':'One search query; not a complete audit of all jobs'}
+                    'meaning':'One search query this run; recent_regions records up to four latest target regions'}
   except Exception as exc:
    code=getattr(getattr(exc,'response',None),'status_code',None)
    reason='HTTP '+str(code) if code else type(exc).__name__
    errors.append(label+': '+reason)
-   coverage[label]={'checked_at':stamp,'region_searched':region,'matched':None,
-                    'unresolved':None,'error':reason}
+   prior=coverage.get(label) if isinstance(coverage.get(label),dict) else {}
+   recent=[r for r in prior.get('recent_regions',[]) if r in TARGET_REGIONS and r!=region]
+   coverage[label]={'checked_at':stamp,'region_searched':region,'recent_regions':[region,*recent][:4],
+                    'matched':None,'unresolved':None,'error':reason}
  targets=[dict(name=n,company=c,region=r,focus=f,url=u) for n,c,r,f,u in TARGETS]
  run={'at':stamp,'requests':len(tasks),'received':received,'new_jobs':added,
       'new_historical':archived,'new_unconfirmed':unconfirmed,'errors':errors,
