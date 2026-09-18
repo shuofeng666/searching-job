@@ -14,6 +14,9 @@ class ResearchScannerTests(unittest.TestCase):
             self.assertEqual([j[0] for j in jobs[:4]], ['Microsoft', 'Meta', 'Autodesk', 'Adobe'])
             self.assertEqual(len({j[0] for j in jobs if not j[0].startswith('Topic:')}), 12 - 2)
             self.assertEqual(sum(bool(j[3]) for j in jobs), 2 if day % 7 == 0 else 0)
+        for company_index, company in enumerate(['Microsoft', 'Meta', 'Autodesk', 'Adobe']):
+            regions={plan(day)[company_index][1] for day in (14,15,16,17)}
+            self.assertEqual(regions, {'US','CA','SG','HK'}, company)
 
     def test_official_workday_and_standard_hosts(self):
         self.assertEqual(employer('https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/123'), 'Autodesk')
@@ -35,7 +38,7 @@ class ResearchScannerTests(unittest.TestCase):
                       'Research Scientist Full Time 2027'):
             self.assertIsNone(classify(result(title)))
         self.assertIsNone(classify(result('Research Intern HCI 2027', 'https://research.adobe.com/news/intern-story')))
-        self.assertIsNone(classify(result('HCI Research PhD Fellowship 2027')))
+        self.assertIsNone(classify(result('HCI Research PhD Fellowship 2027'))
 
     def test_no_year_is_watch_only(self):
         no_year = result('Human-AI Research Intern', 'https://www.metacareers.com/jobs/12', 'HCI collaboration Summer 2027')
@@ -51,6 +54,7 @@ class ResearchScannerTests(unittest.TestCase):
         self.assertEqual(fresh['runs'][0]['requests'], 12)
         self.assertEqual(len(old['postings']), 0)
         self.assertIn('Adobe', fresh['coverage'])
+        self.assertEqual(fresh['coverage']['Adobe']['recent_regions'], ['SG'])
 
     def test_old_product_garbage_removed(self):
         bad={'id':'bad','title':'Product Design Intern 2027','description':'HCI','year':2027,
@@ -66,6 +70,7 @@ class ResearchScannerTests(unittest.TestCase):
         fresh,_=scan('mock',{'jobs':[],'runs':[]},{'postings':[]},day=15,search=search)
         self.assertEqual(fresh['runs'][0]['status'],'partial')
         self.assertEqual(fresh['coverage']['Microsoft']['error'],'TimeoutError')
+        self.assertEqual(fresh['coverage']['Microsoft']['recent_regions'], ['HK'])
 
 
 if __name__ == '__main__': unittest.main()
