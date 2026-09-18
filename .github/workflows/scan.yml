@@ -11,6 +11,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out default branch
         uses: actions/checkout@v4
@@ -22,23 +23,23 @@ jobs:
         run: python -m pip install 'requests>=2.31,<3'
       - name: Test scanner before paid search
         run: python -m unittest discover -s tests -v
-      - name: Search research internships and historical evidence
+      - name: Scan large-company research internships and historical evidence
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
           if [ -z "$SERPAPI_KEY" ]; then
-            echo 'SERPAPI_KEY is not configured. Skipping paid search.'
+            echo 'SERPAPI_KEY is not configured. No paid search was made.'
             exit 0
           fi
-          python scanner_v3.py
-      - name: Commit public vacancy feed and archive only
+          python scanner_v4.py
+      - name: Publish research feed and archive
         run: |
           if git diff --quiet -- public/data/feed.json public/data/archive.json; then
-            echo 'No new feed data to commit.'
+            echo 'No new data to commit.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/data/feed.json public/data/archive.json
-          git commit -m 'data: update research internship feed and history'
+          git commit -m 'data: refresh research internship evidence'
           git push
