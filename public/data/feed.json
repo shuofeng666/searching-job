@@ -2,6 +2,38 @@
   "jobs": [],
   "watch_leads": [
     {
+      "id": "0707da3009ebbd94d138",
+      "title": "Reflections of an Autodesk Research intern",
+      "company": "Autodesk",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "She spent this past summer as a human and computer interaction (HCI) intern with Autodesk Research, which explores new ways for technology to be applied to ...",
+      "url": "https://blogs.autodesk.com/autodesk-life/inside-autodesk/autodesk-research-internship",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-09-19T16:32:24+00:00",
+      "last_seen": "2026-09-19T16:32:24+00:00"
+    },
+    {
       "id": "e9805e1c288e845999b5",
       "title": "Research Intern, AI-Mediated Reality and Interaction ...",
       "company": "NVIDIA",
@@ -68,68 +100,100 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 0,
+      "unresolved": 1,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Atlassian": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
       "raw_results": 9,
       "matched": 0,
-      "error": null
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Salesforce": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
       "raw_results": 9,
       "matched": 0,
-      "error": null
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Roblox": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "SG",
-      "raw_results": 9,
-      "matched": 2,
-      "error": null
-    },
-    "Sony": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
       "raw_results": 9,
       "matched": 0,
-      "error": null
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Sony": {
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: UX researcher PhD intern": {
       "checked_at": "2026-09-17T19:23:59+00:00",
@@ -228,6 +292,52 @@
       "unresolved": 0,
       "error": null,
       "meaning": "One search query; not a complete audit of all jobs"
+    },
+    "Honda": {
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Spotify": {
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
+    },
+    "Topic: HCI research intern": {
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Topic: human AI interaction research internship": {
+      "checked_at": "2026-09-19T16:32:24+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     }
   },
   "targets": [
@@ -444,6 +554,18 @@
   ],
   "runs": [
     {
+      "at": "2026-09-19T16:32:24+00:00",
+      "requests": 12,
+      "received": 90,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 1,
+      "errors": [
+        "Spotify: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-09-18T17:06:45+00:00",
       "requests": 12,
       "received": 81,
@@ -494,7 +616,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-18T17:06:45+00:00",
+  "last_scan": "2026-09-19T16:32:24+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
