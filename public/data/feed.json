@@ -100,9 +100,10 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-19T16:32:24+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG"
       ],
       "raw_results": 9,
@@ -112,9 +113,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-09-19T16:32:24+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK"
       ],
       "raw_results": 9,
@@ -124,21 +126,23 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-09-19T16:32:24+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "US"
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 1,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-09-19T16:32:24+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA"
       ],
       "raw_results": 9,
@@ -196,18 +200,28 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: UX researcher PhD intern": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "US",
-      "raw_results": 2,
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
+      "raw_results": 5,
       "matched": 0,
-      "error": null
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: collaborative design fabrication research intern": {
-      "checked_at": "2026-09-17T19:23:59+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
       "raw_results": 9,
       "matched": 0,
-      "error": null
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Amazon archive 2025": {
       "checked_at": "2026-09-17T19:23:59+00:00",
@@ -240,40 +254,52 @@
       "meaning": "One search query; not a complete audit of all jobs"
     },
     "IBM": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
+      "checked_at": "2026-09-20T16:51:58+00:00",
       "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Amazon": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
+      "checked_at": "2026-09-20T16:51:58+00:00",
       "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Snap": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
+      "checked_at": "2026-09-20T16:51:58+00:00",
       "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Samsung": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
+      "checked_at": "2026-09-20T16:51:58+00:00",
       "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
       "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
       "checked_at": "2026-09-18T17:06:45+00:00",
@@ -334,6 +360,30 @@
         "CA"
       ],
       "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Roblox archive 2025": {
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Sony archive 2026": {
+      "checked_at": "2026-09-20T16:51:58+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -554,6 +604,16 @@
   ],
   "runs": [
     {
+      "at": "2026-09-20T16:51:58+00:00",
+      "requests": 12,
+      "received": 104,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-09-19T16:32:24+00:00",
       "requests": 12,
       "received": 90,
@@ -616,7 +676,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-19T16:32:24+00:00",
+  "last_scan": "2026-09-20T16:51:58+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
