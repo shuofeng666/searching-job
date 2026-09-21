@@ -1,6 +1,133 @@
 {
-  "jobs": [],
+  "jobs": [
+    {
+      "id": "49f71681d940c80105b4",
+      "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+      "company": "NVIDIA",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "NVIDIA's Quantum and Chemistry Research team is seeking Molecular AI and ... Research Scientist, Human‑AI Perception and Interaction Research - PhD New College ...",
+      "url": "https://jobs.nvidia.com/careers/job/893397725891",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-09-21T18:45:36+00:00",
+      "last_seen": "2026-09-21T18:45:36+00:00"
+    },
+    {
+      "id": "589f4516cc66003119ed",
+      "title": "User Experience Research Intern, MS, Summer 2027",
+      "company": "Google",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "This internship is intended for students in their penultimate academic year, who are pursuing a Master's degree program",
+      "url": "https://careers.google.com/jobs/results/89541201752924870-user-experience-research-intern",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-09-21T18:45:36+00:00",
+      "last_seen": "2026-09-21T18:45:36+00:00"
+    }
+  ],
   "watch_leads": [
+    {
+      "id": "e9805e1c288e845999b5",
+      "title": "Research Intern, AI-Mediated Reality and Interaction ...",
+      "company": "NVIDIA",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Research Intern, AI-Mediated Reality and Interaction Research - 2027. NVIDIA's AI-Mediated Reality and Interaction (AMRI) Research group is looking for ...",
+      "url": "https://research.nvidia.com/labs/amri/post/internships_for_summer_2027",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-09-18T13:26:57+00:00",
+      "last_seen": "2026-09-21T18:45:36+00:00"
+    },
+    {
+      "id": "da85413fb332cb35f174",
+      "title": "Research Intern: Human-AI Group Interaction",
+      "company": "Honda",
+      "region": "US",
+      "location": "US",
+      "kind": "web",
+      "description": "​Honda Research Institute USA (HRI-US) is seeking a Human-AI Group Interaction Research Intern to study how people collaborate with AI agents in team settings.",
+      "url": "https://usa.honda-ri.com/-/research-intern-human-ai-group-interaction-1?redirect=%2Fintern-positions",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "reasons": [
+        "Employer URL",
+        "Intern research title",
+        "Research-topic language"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-09-21T18:45:36+00:00",
+      "last_seen": "2026-09-21T18:45:36+00:00"
+    },
     {
       "id": "0707da3009ebbd94d138",
       "title": "Reflections of an Autodesk Research intern",
@@ -32,38 +159,6 @@
       ],
       "first_seen": "2026-09-19T16:32:24+00:00",
       "last_seen": "2026-09-19T16:32:24+00:00"
-    },
-    {
-      "id": "e9805e1c288e845999b5",
-      "title": "Research Intern, AI-Mediated Reality and Interaction ...",
-      "company": "NVIDIA",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "Research Intern, AI-Mediated Reality and Interaction Research - 2027. NVIDIA's AI-Mediated Reality and Interaction (AMRI) Research group is looking for ...",
-      "url": "https://research.nvidia.com/labs/amri/post/internships_for_summer_2027",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": null,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "reasons": [
-        "Employer URL",
-        "Intern research title",
-        "Research-topic language"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified",
-        "Year not explicit in job title; placed in research leads"
-      ],
-      "first_seen": "2026-09-18T13:26:57+00:00",
-      "last_seen": "2026-09-18T17:06:45+00:00"
     },
     {
       "id": "4cd393ed83b0988d582e",
@@ -100,9 +195,10 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "SG"
       ],
@@ -113,9 +209,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "US",
         "HK"
       ],
@@ -126,9 +223,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA",
         "US"
       ],
@@ -139,9 +237,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG",
         "CA"
       ],
@@ -245,18 +344,22 @@
       "error": "ReadTimeout"
     },
     "NVIDIA": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
       "raw_results": 9,
-      "matched": 0,
-      "unresolved": 2,
+      "matched": 1,
+      "unresolved": 1,
       "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "IBM": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "HK"
       ],
       "raw_results": 9,
@@ -266,9 +369,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Amazon": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US"
       ],
       "raw_results": 9,
@@ -278,9 +382,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Snap": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA"
       ],
       "raw_results": 9,
@@ -290,44 +395,52 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Samsung": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "SG"
       ],
-      "raw_results": 9,
+      "raw_results": 10,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "HK",
-      "raw_results": 0,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
-    },
-    "Topic: XR interaction research internship": {
-      "checked_at": "2026-09-18T17:06:45+00:00",
-      "region_searched": "US",
-      "raw_results": 0,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query; not a complete audit of all jobs"
-    },
-    "Honda": {
-      "checked_at": "2026-09-19T16:32:24+00:00",
+      "checked_at": "2026-09-21T18:45:36+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG"
       ],
-      "raw_results": 9,
+      "raw_results": 0,
       "matched": 0,
       "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Topic: XR interaction research internship": {
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 1,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Honda": {
+      "checked_at": "2026-09-21T18:45:36+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 1,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
@@ -604,6 +717,16 @@
   ],
   "runs": [
     {
+      "at": "2026-09-21T18:45:36+00:00",
+      "requests": 12,
+      "received": 100,
+      "new_jobs": 2,
+      "new_historical": 0,
+      "new_unconfirmed": 1,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-09-20T16:51:58+00:00",
       "requests": 12,
       "received": 104,
@@ -676,7 +799,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-20T16:51:58+00:00",
+  "last_scan": "2026-09-21T18:45:36+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
