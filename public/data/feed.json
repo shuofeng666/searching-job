@@ -195,22 +195,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-23T17:52:39+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-09-23T17:52:39+00:00",
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -224,8 +209,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-09-23T17:52:39+00:00",
+    "Meta": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -239,8 +224,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-09-23T17:52:39+00:00",
+    "Autodesk": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -254,10 +239,26 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Atlassian": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "CA",
+    "Adobe": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
+        "CA",
+        "US",
+        "HK"
+      ],
+      "raw_results": 6,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Atlassian": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US",
         "CA",
         "HK"
       ],
@@ -370,33 +371,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "IBM": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
-      "region_searched": "CA",
-      "recent_regions": [
-        "CA",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Amazon": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Snap": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -408,53 +383,80 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Samsung": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
+    "Amazon": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
         "SG"
       ],
-      "raw_results": 10,
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Topic: creativity support tools research intern": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
+    "Snap": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Samsung": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
       "region_searched": "SG",
       "recent_regions": [
+        "SG",
+        "US"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
+    },
+    "Topic: creativity support tools research intern": {
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
         "SG"
       ],
-      "raw_results": 0,
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: XR interaction research internship": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "HK"
       ],
       "raw_results": 9,
-      "matched": 1,
+      "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Honda": {
-      "checked_at": "2026-09-21T18:45:36+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-24T17:52:52+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA",
         "SG"
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 1,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
@@ -796,6 +798,18 @@
   ],
   "runs": [
     {
+      "at": "2026-09-24T17:52:52+00:00",
+      "requests": 12,
+      "received": 95,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Samsung: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-09-23T17:52:39+00:00",
       "requests": 12,
       "received": 92,
@@ -900,7 +914,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-23T17:52:39+00:00",
+  "last_scan": "2026-09-24T17:52:52+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
