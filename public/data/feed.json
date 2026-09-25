@@ -195,22 +195,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
-      "region_searched": "HK",
-      "recent_regions": [
-        "HK",
-        "SG",
-        "CA",
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
+      "checked_at": "2026-09-25T17:58:57+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -224,8 +209,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
+    "Meta": {
+      "checked_at": "2026-09-25T17:58:57+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -239,8 +224,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
+    "Autodesk": {
+      "checked_at": "2026-09-25T17:58:57+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -248,7 +233,22 @@
         "US",
         "HK"
       ],
-      "raw_results": 6,
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
+        "SG",
+        "CA",
+        "US"
+      ],
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -269,11 +269,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Salesforce": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "US",
       "recent_regions": [
-        "SG",
-        "US"
+        "US",
+        "SG"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -282,11 +282,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Roblox": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "CA",
       "recent_regions": [
-        "HK",
-        "CA"
+        "CA",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -295,11 +295,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Sony": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "US",
-        "SG"
+        "SG",
+        "US"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -461,11 +461,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Spotify": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "HK",
       "recent_regions": [
-        "CA",
-        "HK"
+        "HK",
+        "CA"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -474,9 +474,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: HCI research intern": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "HK",
         "US"
       ],
@@ -487,9 +488,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: human AI interaction research internship": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "US",
         "CA"
       ],
@@ -524,9 +526,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "HP": {
-      "checked_at": "2026-09-22T17:39:34+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "SG"
       ],
       "raw_results": 9,
@@ -536,9 +539,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "ByteDance": {
-      "checked_at": "2026-09-23T17:52:39+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-09-25T17:58:57+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "SG"
       ],
       "raw_results": 9,
@@ -798,6 +802,16 @@
   ],
   "runs": [
     {
+      "at": "2026-09-25T17:58:57+00:00",
+      "requests": 12,
+      "received": 99,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-09-24T17:52:52+00:00",
       "requests": 12,
       "received": 95,
@@ -914,7 +928,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-09-24T17:52:52+00:00",
+  "last_scan": "2026-09-25T17:58:57+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
