@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-09-28",
-  "note": "Official-page evidence describes what the employer currently publishes. Match ranking is an assessment against Shuo Feng's known profile and is not employer evidence.",
+  "note": "Official-page evidence describes what the employer currently publishes. Match ranking is an assessment against Shuo Feng's known profile and is not employer evidence. 2026-09-28 expansion adds a separate watch list; those are research programs or team paths, not verified Summer 2027 openings.",
   "feed_google_uxr_note": {
     "feed_status": "search_lead",
     "feed_title": "User Experience Research Intern, MS, Summer 2027",
@@ -76,6 +76,56 @@
       "match_reason": "An actual PhD research internship listing for 2027, but its research area is distant from your current work.",
       "fit_caveat": "The role centers on quantum information/algorithms, quantum chemistry, molecular AI, generative chemistry, or self-driving labs. Based on the profile details available, this is a low-priority match.",
       "source_check": "NVIDIA Careers search listing checked 2026-09-28."
+    }
+  ],
+  "watch_items": [
+    {
+      "rank": "追踪",
+      "title": "Microsoft Research PhD Internship program",
+      "company": "Microsoft Research",
+      "region": "Global / lab-specific",
+      "location": "Host-lab location depends on the eventual opening",
+      "url": "https://careers.microsoft.com/v2/global/en/phdinternship",
+      "feed_status": "Not in current feed; official general PhD internship pathway",
+      "feed_region": "Not applicable",
+      "evidence_status": "Official program page says MSR internships are 12 weeks, open across research areas, offered year-round and typically starting in summer. It does not identify a Summer 2027 opening or deadline.",
+      "deadline": null,
+      "deadline_status": "No 2027 deadline or application window verified.",
+      "match_reason": "Potentially strong route because HCI and Human-AI research can fit the broad research-area remit; this is a program-level pathway, not evidence of a matching mentor or funded project.",
+      "fit_caveat": "Monitor Microsoft Research openings and contact relevant HCI/Human-AI researchers. Do not treat the general pathway as a specific 2027 vacancy.",
+      "source_check": "Microsoft Careers PhD internships page checked 2026-09-28."
+    },
+    {
+      "rank": "追踪",
+      "title": "Adobe Research student internship · HCI / Human-AI co-creation",
+      "company": "Adobe Research",
+      "region": "US (intern locations vary)",
+      "location": "US research locations include San Jose, San Francisco, Seattle, Cambridge, College Park; listing-specific",
+      "url": "https://research.adobe.com/careers/internships/",
+      "feed_status": "Not in current feed; official research internship program and HCI team page",
+      "feed_region": "Not applicable",
+      "evidence_status": "Adobe’s internship page currently describes Summer 2026 roles, not 2027. Adobe HCI page says it is recruiting interns and highlights human-AI co-creation research.",
+      "deadline": null,
+      "deadline_status": "No 2027 opening or deadline verified.",
+      "match_reason": "Very strong topic fit for HCI, interactive creative tools, and Human-AI co-creation; Adobe Research says interns work with researchers and product/design teams, and intern work may be presented at academic conferences.",
+      "fit_caveat": "The evidence supports a team/program to watch, not an open 2027 role. Recheck the internship portal when the next cycle is published.",
+      "source_check": "Adobe Research internship and HCI pages checked 2026-09-28."
+    },
+    {
+      "rank": "追踪",
+      "title": "Autodesk Research internships · HCI & Visualization",
+      "company": "Autodesk Research",
+      "region": "Not specified on program page",
+      "location": "Listing-specific; verify location in any 2027 posting",
+      "url": "https://autodesk.wd1.myworkdayjobs.com/Ext?q=research&workerSubType=39f5af07b0c54bc588b1a47788da7f81",
+      "feed_status": "Not in current feed; official research internship search page",
+      "feed_region": "Not applicable",
+      "evidence_status": "Autodesk Research describes internships alongside researchers and lists a Human Computer Interaction & Visualization intern example. No current 2027 vacancy is confirmed by that program page.",
+      "deadline": null,
+      "deadline_status": "No 2027 opening or deadline verified.",
+      "match_reason": "Good research-area fit for HCI, visualization, CAD/design tools, and digital fabrication; especially relevant to your interactive tools background.",
+      "fit_caveat": "The HCI/Visualization title is a past intern example, not a current job. The search link may show other research roles; verify date, degree eligibility, and location before applying.",
+      "source_check": "Autodesk Research careers page and internship search link checked 2026-09-28."
     }
   ]
 }
