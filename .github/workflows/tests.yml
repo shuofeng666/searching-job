@@ -10,6 +10,9 @@ on:
       - 'api/**'
       - 'public/scan-control.js'
       - 'public/radar-experience.js'
+      - 'public/index.html'
+      - 'public/data/hci-expansion.json'
+      - 'public/data/research-lead-review.json'
       - 'public/data/research-evidence.json'
       - 'tests/**'
       - '.github/workflows/tests.yml'
@@ -33,5 +36,8 @@ jobs:
           node --check public/scan-control.js
           node --check public/radar-experience.js
           python -m json.tool public/data/research-evidence.json > /dev/null
+          python -m json.tool public/data/hci-expansion.json > /dev/null
       - name: Serverless authorization and trigger behavior
         run: node --test tests/test_api_scan.cjs
+      - name: Curated HCI data and frontend behavior
+        run: node --test tests/test_hci_expansion.cjs

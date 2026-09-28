@@ -1,0 +1,145 @@
+{
+  "reviewed_on": "2026-09-28",
+  "note": "排名是研究/设计工具匹配判断，不是录取概率。official_posting 表示核查时官方页面含职位正文和申请入口，不保证仍有名额或个人资格。未知截止日期不生成倒计时。人工核查与自动 search_lead 分开保存。",
+  "items": [
+    {
+      "id": "hci-figma-design-2027", "rank": 1, "company": "Figma", "title": "Product Design Intern (2027)",
+      "region": "US", "location": "San Francisco / New York", "year": 2027,
+      "url": "https://job-boards.greenhouse.io/figma/jobs/6180005004?gh_jid=6180005004",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · 产品设计",
+      "role_track": "hci_product_design", "topics": ["Design Tools", "HCI", "CSCW"],
+      "evidence": "官方 2027 实习正文描述暑期项目、交互/视觉设计、原型和代码；设计工具、设计系统及信息架构兴趣为加分项。",
+      "match_reason": "设计工具与协作原型高度贴合 HCI/CAD 交互工具背景；适合以可运行的交互系统和设计决策展示研究转化能力。",
+      "fit_caveat": "不是学术 research intern；需强调视觉质量、产品交付和作品集。正文未明确排除 PhD，但个人学籍和工作许可仍需确认。",
+      "deadline": null, "deadline_status": "官方页面未列截止日期。", "eligibility_status": "confirm_individual_eligibility"
+    },
+    {
+      "id": "hci-shure-research-2027", "rank": 2, "company": "Shure", "title": "Design Research Intern · Summer 2027",
+      "region": "US", "location": "Niles, Illinois · Hybrid", "year": 2027,
+      "url": "https://careersus-shure.icims.com/jobs/4983/design-research-intern/job?in_iframe=1",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · Design Research",
+      "role_track": "research", "topics": ["UX Research", "HCI"],
+      "evidence": "职位 2026-4983 正文明示 Summer 2027；12 周，接受本科或 advanced degree。方法包括访谈、可用性、问卷和田野研究。",
+      "match_reason": "最直接对应实证 HCI 方法训练；产品与软件体验研究、研究设计及结果沟通都可迁移。",
+      "fit_caveat": "必须有全职美国工作授权，公司不为该岗位提供工作签证赞助；不能据此推断接受或拒绝 CPT。是否可用现有授权需单独确认。",
+      "deadline": null, "deadline_status": "未列截止日期；late fall/early winter 联系入选者是审核时间，不是申请截止。", "eligibility_status": "work_authorization_check"
+    },
+    {
+      "id": "hci-figma-phd-data-2027", "rank": 3, "company": "Figma", "title": "PhD Intern, Data Science (2027)",
+      "region": "US", "location": "San Francisco / New York", "year": 2027,
+      "url": "https://job-boards.greenhouse.io/figma/jobs/6200626004",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · HCI PhD 明列",
+      "role_track": "research_adjacent", "topics": ["HCI", "Human-AI", "Design Tools", "UX Research"],
+      "evidence": "明确接受 HCI 博士；涉及用户/产品行为、实验与指标、AI/LLM 评估，有继续推进论文的可能。要求 Python 或 R，以及 SQL。",
+      "match_reason": "在协作设计工具场景研究用户行为和 AI 功能，比一般算法实习更贴近 HCI；可将研究设计与实验评估作为优势。",
+      "fit_caveat": "这是量化/数据科学路线，不能把 HCI 学位等同于技能满足；需展示 SQL、脚本分析及统计能力。标题确定 2027，但具体暑期起止未核实；论文不是保证。",
+      "deadline": null, "deadline_status": "官方页面未列截止日期。", "eligibility_status": "skills_and_dates_check"
+    },
+    {
+      "id": "hci-roblox-design-2027", "rank": 4, "company": "Roblox", "title": "[Summer 2027] Product Design Intern",
+      "region": "US", "location": "San Mateo, California", "year": 2027,
+      "url": "https://careers.roblox.com/jobs/8143984",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · 截止年份待确认",
+      "role_track": "hci_product_design", "topics": ["Design Tools", "HCI", "UX Research"],
+      "evidence": "12 周；接受 design 或相关领域 undergraduate/graduate 学生，包含原型、用户研究、创作工具与复杂工作流设计。",
+      "match_reason": "创作工具、用户工作流和原型实践可对应 CAD/设计工具经验；具体是否分到 creator tools 团队未知。",
+      "fit_caveat": "部分美国签证类型/未来 H-1B 可能无法支持，个人工作授权须确认。偏产品设计而非学术研究。",
+      "deadline": null, "deadline_raw": "Friday, October 30th at 5 PM PST",
+      "deadline_inference": "2026 年 10 月 30 日为星期五，结合招聘周期推测为 2026；原文未写年份，PST 的使用也需确认。",
+      "deadline_status": "官网写明 Friday, October 30th at 5 PM PST；年份未写明。不生成精确倒计时。", "eligibility_status": "work_authorization_check"
+    },
+    {
+      "id": "hci-intuit-design-2027", "rank": 5, "company": "Intuit", "title": "Summer 2027: Product Design Intern",
+      "region": "US", "location": "Mountain View, California · Hybrid", "year": 2027,
+      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · 学位适用待确认",
+      "role_track": "hci_product_design", "topics": ["HCI", "Human-AI", "UX Research"],
+      "evidence": "12 周，2027-05-17 至 08-06 或 06-14 至 09-03；强调 AI 工具、交互原型、用户问题验证和作品集。",
+      "match_reason": "AI 原型与用户研究驱动迭代可用 HCI 项目证明；业务领域是金融软件，不如创作/CAD 工具直接。",
+      "fit_caveat": "资格例举 associate/bachelor/master/MBA 或 equivalent，未明确列 PhD；需确认。须实习结束后毕业并具备实习全程美国工作授权。",
+      "deadline": null, "deadline_status": "未列申请截止；实习起止时间不作截止日期。", "eligibility_status": "degree_and_authorization_check"
+    },
+    {
+      "id": "hci-doordash-design-2027", "rank": 6, "company": "DoorDash", "title": "Product Design, Intern (Summer 2027)",
+      "region": "US", "location": "San Francisco / New York", "year": 2027,
+      "url": "https://careersatdoordash.com/jobs/product-design-intern-summer-2027/8176863/",
+      "status": "official_posting", "status_label": "官方职位及申请入口已核查 · 毕业时间限制",
+      "role_track": "hci_product_design", "topics": ["HCI", "Human-AI"],
+      "evidence": "暑期 12 周；接受 HCI/design/相关技术学位；要求 Fall 2027 或 Spring/Summer 2028 毕业，以及体现 AI 使用的案例。",
+      "match_reason": "可展示 AI 辅助设计、原型构建与对设计决策的解释；偏消费产品体验，领域贴合低于设计工具公司。",
+      "fit_caveat": "先确认预计毕业年月符合硬性范围；研究论文不能代替产品设计作品集，导师与论文机会不保证。",
+      "deadline": null, "deadline_status": "官方说明 ongoing basis 接受申请；未列固定截止日期。", "eligibility_status": "graduation_date_check"
+    }
+  ],
+  "caution_items": [
+    {
+      "id": "hci-atlassian-airs-2027", "rank": "资格", "company": "Atlassian", "title": "Research Intern, 2027 Summer U.S. · AIRS",
+      "region": "US", "location": "Seattle", "year": 2027,
+      "url": "https://www.atlassian.com/company/careers/details/26270",
+      "status": "official_posting", "status_label": "官方职位已核查 · 明确不接受 F1/J1",
+      "role_track": "research", "topics": ["Human-AI", "UX Research", "Design Tools"],
+      "evidence": "AI Research Systems 团队做研究流程工具与 AI 辅助研究。2027 暑期 12 周；正文明确不接受 F1/J1，不提供工作赞助。",
+      "match_reason": "AI 工具开发和研究方法结合，主题非常贴合；但资格限制优先于主题排名。",
+      "fit_caveat": "如果届时身份为 F1/J1，不满足此岗位条件；未确认个人身份，不能一概断言不能申请。要求实习后返校、2028-08 前毕业。",
+      "deadline": null, "deadline_status": "未列截止日期。", "eligibility_status": "explicit_f1_j1_exclusion"
+    }
+  ],
+  "watch_items": [
+    {
+      "id": "hci-nvidia-infrastructure-2027", "rank": "核验", "company": "NVIDIA", "title": "Product Design Intern, AI Infrastructure - Summer 2027 · JR2025784",
+      "region": "US", "location": "Santa Clara, California（官方搜索摘要）", "year": 2027,
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725807?source=eventshpe2026",
+      "status": "partial_evidence", "status_label": "官方职位标题/搜索摘要可见 · 完整正文未核实",
+      "topics": ["Design Tools", "Human-AI", "HCI"],
+      "evidence": "官方 ATS 返回 2027 职位标题；搜索摘要提到研究人员/工程师的数据、工作流和结果理解工具；动态正文未完整读到。",
+      "match_reason": "专业工作流和研究工具比 Quantum/Chemistry 更贴近交互设计工具经验；这是基于摘要的判断。",
+      "fit_caveat": "先核实完整 JD、在招状态、PhD 资格、地点和工作许可，不算已确认可申请。",
+      "deadline": null, "deadline_status": "截止日期未核实。"
+    },
+    {
+      "id": "hci-delta-research-2027", "rank": "核验", "company": "Delta Air Lines", "title": "Graduate Intern - Design and Research, Digital Experience - Summer 2027",
+      "region": "US", "location": "Atlanta, Georgia（雇主招聘副本）", "year": 2027,
+      "url": "https://delta.avature.net/en_US/careers/JobDetail/Graduate-Intern-Design-and-Research-Digital-Experience-Summer-2027/33850?jobId=33850",
+      "source_url": "https://www.linkedin.com/jobs/view/graduate-intern-design-and-research-%E2%80%93-digital-experience-summer-2027-at-delta-air-lines-4461679970",
+      "status": "partial_evidence", "status_label": "官方链接已定位 · ATS 正文受阻",
+      "topics": ["HCI", "UX Research", "Human-AI"],
+      "evidence": "官方搜索结果有具体 2027 职位；雇主 LinkedIn 招聘副本描述研究/原型及 master/doctorate 相关背景。ATS 正文未完整核实。",
+      "match_reason": "研究与设计混合工作可发挥 HCI 方法和原型能力；不是专门的学术 HCI 研究组。",
+      "fit_caveat": "副本不代替实时官方职位核验；确认工作许可、完整资格和申请是否仍开放。",
+      "deadline": null, "deadline_status": "截止日期未核实。"
+    },
+    {
+      "id": "hci-notion-watch", "rank": "追踪", "company": "Notion", "title": "HCI / User Research / AI evaluation / Product Design 实习追踪",
+      "region": "", "location": "2027 HCI 实习地点未核实；不要套用全职或 SWE 职位地点", "year": null,
+      "url": "https://www.notion.com/careers",
+      "status": "watch_only", "status_label": "值得关注的公司 · 未核实 2027 HCI 实习",
+      "topics": ["CSCW", "Human-AI", "Design Tools"],
+      "evidence": "有官方招聘入口，但本轮未核实到符合方向的 2027 研究/设计实习。全职 UXR/设计岗位与 SWE 实习不能作为 HCI 实习的替代证据。",
+      "match_reason": "协作知识工作和 AI 工具是合理的研究兴趣交集，仅为公司方向推断。",
+      "fit_caveat": "不是已开放的 HCI internship；不把相关全职职位混入申请列表。",
+      "deadline": null, "deadline_status": "无已核实 2027 职位或截止日期。"
+    },
+    {
+      "id": "hci-lyft-unverified-2027", "rank": "线索", "company": "Lyft", "title": "UX Research Intern (Summer 2027) · 第三方线索",
+      "region": "", "location": "尚未独立核实", "year": 2027,
+      "url": "https://www.lyft.com/careers/early-talent", "source_url": "https://builtin.com/job/ux-research-intern-2027/11139892",
+      "status": "unverified_lead", "status_label": "仅发现第三方具体职位 · 官方尚未核实",
+      "topics": ["UX Research", "HCI"],
+      "evidence": "第三方列出 2027 UXR 实习；官方 early-talent 仅能证明一般实习项目存在。",
+      "match_reason": "若岗位属实，定性用户研究与 HCI 方法相关。",
+      "fit_caveat": "未核实具体官方职位、地区、学位资格、开放状态；不进入已核查机会列表。",
+      "deadline": null, "deadline_status": "截止日期未核实。"
+    },
+    {
+      "id": "hci-ibm-unverified-2027", "rank": "线索", "company": "IBM", "title": "User Experience Design, Research and Content Intern 2027 · 待核实",
+      "region": "US", "location": "Poughkeepsie, New York（第三方，官方待确认）", "year": 2027,
+      "url": "https://www.ibm.com/careers", "source_url": "https://www.linkedin.com/jobs/view/user-experience-design-research-and-content-intern-2027-at-ibm-4457220065",
+      "status": "unverified_lead", "status_label": "招聘副本线索 · 未核实官方具体职位",
+      "topics": ["UX Research", "HCI"],
+      "evidence": "检索出现具体 2027 职位副本；尚未核实官方 requisition 与完整 JD，地区副本有不一致。",
+      "match_reason": "企业复杂系统的用户研究和设计方法可能匹配，具体项目未知。",
+      "fit_caveat": "不要把职位名称中的 research 当成专门研究实习；需确认工作内容、地区、PhD 和许可。",
+      "deadline": null, "deadline_status": "截止日期未核实。"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ class ResearchScannerTests(unittest.TestCase):
         self.assertIsNone(classify(multi)['year'])
 
     def test_no_product_algorithm_fellowships_or_articles(self):
-        for title in ('Product Design Intern 2027', 'Product Management Intern 2027',
+        for title in ('Product Management Intern 2027',
                       'Algorithm Research Intern 2027', 'Machine Learning Engineer Intern 2027',
                       'Research Scientist Full Time 2027'):
             self.assertIsNone(classify(result(title)))
@@ -57,11 +57,30 @@ class ResearchScannerTests(unittest.TestCase):
         self.assertEqual(fresh['coverage']['Adobe']['recent_regions'], ['SG'])
 
     def test_old_product_garbage_removed(self):
-        bad={'id':'bad','title':'Product Design Intern 2027','description':'HCI','year':2027,
+        bad={'id':'bad','title':'Product Design Intern 2027','description':'Collaborative team and brand assets','year':2027,
              'source':'Employer-domain search result', 'company':'Roblox'}
         clean, past=scan('mock',{'jobs':[bad],'runs':[]},{'postings':[]},day=15,search=lambda *_: [])
         self.assertFalse(clean['jobs'])
         self.assertFalse(past['postings'])
+
+    def test_hci_design_and_scoped_ats(self):
+        url='https://job-boards.greenhouse.io/figma/jobs/6180005004'
+        item=classify(result('Product Design Intern 2027',url,'Interaction design, prototypes and creative tools, New York'))
+        self.assertEqual(item['role_track'],'hci_product_design')
+        self.assertFalse(item['open_verified'])
+        self.assertIsNone(item['deadline'])
+        self.assertEqual(item['verification_status'],'search_lead')
+        self.assertIsNone(employer('https://job-boards.greenhouse.io/figma-fake/jobs/1'))
+        self.assertIsNone(employer('https://jobs.ashbyhq.com/other/123'))
+        self.assertIsNone(classify(result('Product Design Intern 2027',url,'Brand assets, collaborative team')))
+        self.assertIsNone(classify(result('PhD Research Intern Quantum Chemistry 2027',snippet='Related roles: human AI and HCI')))
+        fresh,_=scan('mock',{'jobs':[item],'runs':[]},{'postings':[]},day=15,search=lambda *_: [])
+        self.assertEqual(len(fresh['jobs']),1)
+
+    def test_expanded_company_rotation(self):
+        labels={x[0] for day in range(1,100) for x in plan(day)}
+        for company in ('Figma','Notion','Shure','Intuit','DoorDash','Canva','Miro'):
+            self.assertIn(company,labels)
 
     def test_partial_api_errors_remain_visible(self):
         def search(key,q,region):

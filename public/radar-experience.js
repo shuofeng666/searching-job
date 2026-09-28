@@ -32,7 +32,7 @@
  const toolbar=root.querySelector('.toolbar');root.insertBefore(section,toolbar||root.firstChild);
  const get=id=>section.querySelector('#'+id);
  const date=s=>{try{return s?new Date(s).toLocaleDateString('zh-CN'):'未扫描'}catch{return '未知'}};
- const rejected=/algorithm|foundation model|deep learning|machine learning engineer|\bproduct (?:design|designer|management|manager)\b|marketing|graphic design/i;
+ const rejected=/algorithm|foundation model|deep learning|machine learning engineer|\bproduct (?:management|manager)\b|marketing|graphic design/i;
  function clean(items){return (Array.isArray(items)?items:[]).filter(x=>x&&typeof x==='object'&&!rejected.test(String(x.title||'')))}
  function item(title,body,urls,meta,signal){const box=make('div','research-item');box.append(make('b','',title));if(meta)box.append(make('small','',meta));box.append(make('p','',body));if(signal)box.append(make('div','research-signal',signal));for(const [url,label] of urls)box.append(link(url,label));return box}
  function render(feed,evidence){

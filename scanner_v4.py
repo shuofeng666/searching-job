@@ -13,18 +13,37 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
-from scanner_v2 import COMPANIES, CORE, ROTATING, TOPICS, TARGETS, location_for, now, read_json, search_google, tidy_url
+from scanner_v2 import COMPANIES as BASE_COMPANIES, CORE, TOPICS as BASE_TOPICS, TARGETS, location_for, now, read_json, search_google, tidy_url
+
+COMPANIES = {**BASE_COMPANIES, 'Figma': ('figma.com',), 'Notion': ('notion.com', 'notion.so'),
+ 'Shure': ('shure.com',), 'Intuit': ('intuit.com',), 'DoorDash': ('careersatdoordash.com',),
+ 'Lyft': ('lyft.com',), 'Delta': ('delta.com',), 'Canva': ('canva.com', 'lifeatcanva.com'),
+ 'Miro': ('miro.com',), 'Stryker': ('stryker.com',), 'Asana': ('asana.com',),
+ 'Airtable': ('airtable.com',), 'Dropbox': ('dropbox.com',), 'PTC': ('ptc.com',),
+ 'Unity': ('unity.com',), 'Epic Games': ('epicgames.com',)}
+ROTATING = tuple(c for c in COMPANIES if c not in CORE)
+TOPICS = (*BASE_TOPICS, 'design research', 'product design creative tools',
+          'UX research', 'design technologist', 'human AI prototyping')
 
 ROOT = Path(__file__).resolve().parent / 'public' / 'data'
 FEED, ARCHIVE = ROOT / 'feed.json', ROOT / 'archive.json'
 INTERN = re.compile(r'\b(?:intern|internship|co[ -]?op|visiting researcher)\b', re.I)
 RESEARCH_TITLE = re.compile(r'\b(?:research|researcher|scientist|hci|human[ -]computer|human[ -]ai|user experience research|ux research|user researcher|human factors)\b', re.I)
 TOPIC = re.compile(r'hci|human[ -]computer|human[ -]ai|human[ -]agent|human[ -]cent(?:er|re)ed|user (?:experience )?research|ux research|interaction|creativ|design tools?|fabricat|\bcad\b|collaborat|cscw|accessib|visualiz|visualis|mixed reality|augmented reality|\bxr\b', re.I)
-REJECT_TITLE = re.compile(r'algorithm|foundation model|deep learning|machine learning engineer|recommendation|\bproduct (?:design|designer|management|manager)\b|graphic design|marketing|software engineer|visual designer|UI designer|business analyst|program manager|recruiter', re.I)
+REJECT_TITLE = re.compile(r'algorithm|foundation model|deep learning|machine learning engineer|recommendation|quantum|chemistry|\bproduct (?:management|manager)\b|graphic design|marketing|software engineer|visual designer|UI designer|business analyst|program manager|recruiter', re.I)
+DESIGN_TITLE = re.compile(r'\b(?:product design(?:er)?|ux design(?:er)?|user experience design|interaction design(?:er)?|design technologist|creative technologist|industrial design)\b', re.I)
+# Product design is eligible only with substantive HCI/prototyping evidence, not
+# a generic "collaborative team" sentence. These are still unverified leads.
+DESIGN_EVIDENCE = re.compile(r'user research|usability|user.cent(?:er|re)ed|interaction design|prototyp|design tools?|creative tools?|human.ai|\bhci\b|\bcad\b|fabricat', re.I)
 EXPLICIT_YEAR = re.compile(r'(?<!\d)20(?:25|26|27)(?!\d)')
 ARTICLE_PATH = re.compile(r'/(?:news|blog|blogs|people|person|publications|publication|articles|stories|press|fellowship)(?:/|$)', re.I)
 # A Workday board can be a company-owned official job page without an *.company.com URL.
-ATS_HOSTS = {'autodesk.wd1.myworkdayjobs.com': 'Autodesk'}
+ATS_HOSTS = {'autodesk.wd1.myworkdayjobs.com': 'Autodesk',
+ 'nvidia.wd5.myworkdayjobs.com': 'NVIDIA', 'nvidia.eightfold.ai': 'NVIDIA',
+ 'careersus-shure.icims.com': 'Shure', 'delta.avature.net': 'Delta'}
+ATS_PATHS = {('job-boards.greenhouse.io', '/figma/'): 'Figma',
+ ('job-boards.greenhouse.io', '/lyft/'): 'Lyft',
+ ('jobs.ashbyhq.com', '/notion/'): 'Notion'}
 CORE_QUERIES = {
  'Microsoft': '"Microsoft Research" ("HCI" OR "human AI" OR "UX research" OR "interaction research") (intern OR internship) 2027',
  'Meta': '"Meta" ("Reality Labs" OR "HCI" OR "UX research" OR "interaction research") (intern OR internship) 2027',
@@ -36,8 +55,21 @@ TARGET_REGIONS=('US','CA','SG','HK')
 def employer(url):
  host=(urlparse(url).hostname or '').lower()
  if host in ATS_HOSTS: return ATS_HOSTS[host]
+ for (board,prefix),name in ATS_PATHS.items():
+  if host==board and urlparse(url).path.startswith(prefix): return name
  for name,domains in COMPANIES.items():
   if any(host==domain or host.endswith('.'+domain) for domain in domains): return name
+ return None
+
+def role_track(title, snippet=''):
+ if not INTERN.search(title) or REJECT_TITLE.search(title): return None
+ text=title+' '+snippet
+ if RESEARCH_TITLE.search(title) and TOPIC.search(text): return 'research'
+ if DESIGN_TITLE.search(title) and DESIGN_EVIDENCE.search(snippet): return 'hci_product_design'
+ # Explicit HCI eligibility in a doctoral data-science role is a useful adjacent
+ # research route, not permission to ingest generic data-science internships.
+ if re.search(r'phd.*intern.*data science', title, re.I) and re.search(r'\bhci\b|human.computer interaction', snippet, re.I):
+  return 'research_adjacent'
  return None
 
 def classify(raw):
@@ -46,8 +78,8 @@ def classify(raw):
  company=employer(url)
  title=str(raw.get('title') or '').strip()[:240]
  snippet=str(raw.get('snippet') or '').strip()[:1800]
- if not company or not INTERN.search(title) or not RESEARCH_TITLE.search(title) or REJECT_TITLE.search(title): return None
- if not TOPIC.search(title+' '+snippet): return None
+ track=role_track(title,snippet)
+ if not company or not track: return None
  if ARTICLE_PATH.search(urlparse(url).path): return None
  # Search snippets often mention *other* roles in sidebars. Never infer a year
  # from a snippet, search query, posted date or neighboring listing.
@@ -66,7 +98,8 @@ def classify(raw):
   'source_date':str(raw.get('date') or '')[:80],
   'deadline':None,'deadline_status':'Unverified','year':year,'score':None,
   'verification_status':'search_lead','open_verified':False,'research_team_verified':False,
-  'reasons':['Employer URL','Intern research title','Research-topic language'], 'flags':flags,
+  'role_track':track,
+  'reasons':['Employer URL','Relevant internship title','HCI/research or design-method evidence'], 'flags':flags,
  }
 
 def plan(day):
@@ -81,11 +114,11 @@ def plan(day):
  for i in range(count):
   name=ROTATING[(day*count+i)%len(ROTATING)]
   region=TARGET_REGIONS[(day+i)%len(TARGET_REGIONS)]
-  tasks.append((name,region,f'"{name}" ("HCI research intern" OR "UX research intern" OR "interaction research" OR "human AI intern" OR "design tools research") 2027',False))
+  tasks.append((name,region,f'"{name}" ("HCI" OR "UX research" OR "design research" OR "product design" OR "human AI" OR "design technologist") (intern OR internship) 2027',False))
  for i in range(2):
   topic=TOPICS[(day*2+i)%len(TOPICS)]
   region=TARGET_REGIONS[(day+2+i)%len(TARGET_REGIONS)]
-  tasks.append(('Topic: '+topic,region,f'"{topic}" (intern OR internship) 2027 (Microsoft OR Meta OR Adobe OR Autodesk OR Google OR Apple OR NVIDIA)',False))
+  tasks.append(('Topic: '+topic,region,f'"{topic}" (intern OR internship) 2027',False))
  if historic:
   for i,year in enumerate((2025,2026)):
    name=list(COMPANIES)[(day*2+i)%len(COMPANIES)]
@@ -95,8 +128,7 @@ def plan(day):
 
 def _research_record(item):
  title=str(item.get('title',''))
- return bool(INTERN.search(title) and RESEARCH_TITLE.search(title) and
-             not REJECT_TITLE.search(title) and TOPIC.search(title+' '+str(item.get('description',''))))
+ return bool(role_track(title,str(item.get('description',''))))
 
 def scan(key,feed,archive,day=None,search=search_google):
  if not key: raise ValueError('SERPAPI_KEY missing; no requests made')
