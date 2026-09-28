@@ -1,0 +1,81 @@
+{
+  "reviewed_on": "2026-09-28",
+  "note": "Official-page evidence describes what the employer currently publishes. Match ranking is an assessment against Shuo Feng's known profile and is not employer evidence.",
+  "feed_google_uxr_note": {
+    "feed_status": "search_lead",
+    "feed_title": "User Experience Research Intern, MS, Summer 2027",
+    "feed_region": "",
+    "feed_url": "https://careers.google.com/jobs/results/89541201752924870-user-experience-research-intern",
+    "deadline": null,
+    "note": "The feed record is MS-level and is distinct from the PhD-level Google Careers listing below. Its location and deadline remain unverified in the feed."
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "User Experience Research Intern, PhD, Summer 2027",
+      "company": "Google",
+      "region": "US",
+      "location": "Multiple US locations",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/137409539979780806-user-experience-research-intern-phd-summer-2027",
+      "feed_status": "Not the Google record in the feed; separately confirmed on Google Careers",
+      "feed_region": "Not applicable",
+      "evidence_status": "Google Careers lists this PhD Summer 2027 role. US location required during the internship.",
+      "deadline": "2027-02-26",
+      "deadline_status": "Official page says apply before Feb 26, 2027; rolling review.",
+      "match_reason": "Strongest overall match: the role accepts PhD students in Information Science and calls for user research design and qualitative/quantitative methods, which align with your HCI and empirical research experience.",
+      "fit_caveat": "Confirm that your expected graduation timing meets Google's penultimate-year requirement. The role is UX Research; a specific research lab, mentor, or publication is not promised.",
+      "source_check": "Google Careers page checked 2026-09-28."
+    },
+    {
+      "rank": 2,
+      "title": "Research Intern: Human-AI Group Interaction",
+      "company": "Honda Research Institute USA",
+      "region": "US",
+      "location": "San Jose, California",
+      "url": "https://usa.honda-ri.com/en/job-position-detail/-/asset_publisher/SgMsVAEFxU9G/content/research-intern-human-ai-group-interaction-1?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_assetEntryId=1672027",
+      "feed_status": "search_lead",
+      "feed_id": "da85413fb332cb35f174",
+      "feed_region": "US",
+      "evidence_status": "HRI-US's internship page lists the role (P25INT-64), states a desired start date of Jan 11, 2027, and gives a three-month duration.",
+      "deadline": null,
+      "deadline_status": "No deadline stated on the employer page.",
+      "match_reason": "Closest subject and methods match: human-AI teams, empirical HCI, study design, mixed-methods analysis, group interaction, and research outputs. The page accepts Information Science PhD students.",
+      "fit_caveat": "The listed January 11 start is not a Summer 2027 start. Check whether the timing is workable before prioritizing it for a summer internship.",
+      "source_check": "Honda Research Institute USA page checked 2026-09-28."
+    },
+    {
+      "rank": 3,
+      "title": "Research Intern, AI-Mediated Reality and Interaction Research - 2027",
+      "company": "NVIDIA AMRI",
+      "region": "",
+      "location": "Not stated by the research-group page",
+      "url": "https://research.nvidia.com/labs/amri/post/internships_for_summer_2027/",
+      "feed_status": "search_lead",
+      "feed_id": "e9805e1c288e845999b5",
+      "feed_region": "",
+      "evidence_status": "NVIDIA AMRI's official research page says the group is looking for research interns for 2027 and instructs interested graduate students to email the team lead.",
+      "deadline": null,
+      "deadline_status": "No deadline stated.",
+      "match_reason": "High topic alignment with your Human-AI Interaction research; the group also describes prototyping and publication-oriented research.",
+      "fit_caveat": "The page emphasizes a top-tier AI/computer-vision research record plus Python, C++, PyTorch, and related technical experience. That is a notable gap from your stated HCI/design-tools profile.",
+      "source_check": "NVIDIA Research page checked 2026-09-28."
+    },
+    {
+      "rank": 4,
+      "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+      "company": "NVIDIA Quantum and Chemistry Research",
+      "region": "CA",
+      "location": "Toronto, Canada",
+      "url": "https://jobs.nvidia.com/careers/job/893397725891",
+      "feed_status": "search_lead",
+      "feed_id": "49f71681d940c80105b4",
+      "feed_region": "",
+      "evidence_status": "NVIDIA Careers search listing shows the 2027 role in Toronto with an Apply Now link. The full posting page is dynamically rendered.",
+      "deadline": null,
+      "deadline_status": "No deadline verified.",
+      "match_reason": "An actual PhD research internship listing for 2027, but its research area is distant from your current work.",
+      "fit_caveat": "The role centers on quantum information/algorithms, quantum chemistry, molecular AI, generative chemistry, or self-driving labs. Based on the profile details available, this is a low-priority match.",
+      "source_check": "NVIDIA Careers search listing checked 2026-09-28."
+    }
+  ]
+}
