@@ -15,7 +15,7 @@ function runtime(){
 }
 test('curated entries preserve evidence, region, URL and unknown dates',()=>{
  const entries=[...data.items,...data.caution_items,...data.watch_items,...data.brand_items];
- assert.equal(entries.length,17);
+ assert.equal(entries.length,20);
  assert.equal(new Set(entries.map(x=>x.id)).size,entries.length);
  for(const x of entries){for(const key of ['region','url','status','evidence','match_reason','fit_caveat','deadline','deadline_status'])assert.ok(Object.hasOwn(x,key),x.id+':'+key);assert.equal(new URL(x.url).protocol,'https:');}
  assert.equal(data.items.find(x=>x.company==='Roblox').deadline,null);
@@ -25,6 +25,8 @@ test('curated entries preserve evidence, region, URL and unknown dates',()=>{
  assert.ok(data.brand_items.some(x=>x.company==='New Balance'&&x.topics.includes('CAD / Fabrication')));
  assert.ok(data.brand_items.some(x=>x.company==='adidas'&&x.fit_caveat.includes('PhD')));
  assert.ok(data.brand_items.some(x=>x.company==='Samsung Research America'&&x.year===2026));
+ assert.equal(data.brand_items.filter(x=>x.company==='Tesla').length,3);
+ assert.ok(data.brand_items.filter(x=>x.company==='Tesla').every(x=>x.deadline===null));
 });
 test('actual frontend includes design jobs, excludes unverified curated leads and supports filters',()=>{
  const {run}=runtime();
@@ -42,6 +44,7 @@ test('rendered cards escape content, preserve caveats and do not invent countdow
  assert.match(nodes.get('hciExpansion').innerHTML,/推断/);
  assert.match(nodes.get('hciExpansion').innerHTML,/Samsung Research America/);
  assert.match(nodes.get('hciExpansion').innerHTML,/New Balance/);
+ assert.match(nodes.get('hciExpansion').innerHTML,/Tesla/);
  assert.match(nodes.get('undated').innerHTML,/Figma/);
  assert.equal(run('remaining(curatedJobs()[3])'),'');
  assert.match(run('expansionCard({...payload.items[0],title:"<img onerror=evil()>"})'),/&lt;img/);
