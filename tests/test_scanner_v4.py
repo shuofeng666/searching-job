@@ -79,7 +79,7 @@ class ResearchScannerTests(unittest.TestCase):
 
     def test_expanded_company_rotation(self):
         labels={x[0] for day in range(1,100) for x in plan(day)}
-        for company in ('Figma','Notion','Shure','Intuit','DoorDash','Canva','Miro'):
+        for company in ('Figma','Notion','Shure','Intuit','DoorDash','Canva','Miro','Nike','adidas','New Balance'):
             self.assertIn(company,labels)
 
     def test_partial_api_errors_remain_visible(self):

@@ -14,19 +14,23 @@ function runtime(){
  return {context,nodes,run:s=>vm.runInContext(s,context)};
 }
 test('curated entries preserve evidence, region, URL and unknown dates',()=>{
- const entries=[...data.items,...data.caution_items,...data.watch_items];
- assert.equal(entries.length,12);
+ const entries=[...data.items,...data.caution_items,...data.watch_items,...data.brand_items];
+ assert.equal(entries.length,17);
  assert.equal(new Set(entries.map(x=>x.id)).size,entries.length);
  for(const x of entries){for(const key of ['region','url','status','evidence','match_reason','fit_caveat','deadline','deadline_status'])assert.ok(Object.hasOwn(x,key),x.id+':'+key);assert.equal(new URL(x.url).protocol,'https:');}
  assert.equal(data.items.find(x=>x.company==='Roblox').deadline,null);
  assert.ok(data.items.find(x=>x.company==='Roblox').deadline_inference);
  assert.equal(data.caution_items[0].eligibility_status,'explicit_f1_j1_exclusion');
  assert.equal(data.watch_items.find(x=>x.company==='Notion').year,null);
+ assert.ok(data.brand_items.some(x=>x.company==='New Balance'&&x.topics.includes('CAD / Fabrication')));
+ assert.ok(data.brand_items.some(x=>x.company==='adidas'&&x.fit_caveat.includes('PhD')));
+ assert.ok(data.brand_items.some(x=>x.company==='Samsung Research America'&&x.year===2026));
 });
 test('actual frontend includes design jobs, excludes unverified curated leads and supports filters',()=>{
  const {run}=runtime();
  assert.equal(run('allJobs().filter(x=>x.id.startsWith("hci-")).length'),6);
  assert.equal(run('allJobs().some(x=>x.company==="Notion")'),false);
+ assert.equal(run('allJobs().some(x=>x.company==="New Balance")'),false);
  run('selectedTopics.add("Design Tools")');
  assert.equal(run('visible().filter(x=>x.id.startsWith("hci-")).length'),3);
  run('selectedRegions.add("CA")');
@@ -36,6 +40,8 @@ test('rendered cards escape content, preserve caveats and do not invent countdow
  const {run,nodes}=runtime();run('render()');
  assert.match(nodes.get('hciExpansion').innerHTML,/F1\/J1/);
  assert.match(nodes.get('hciExpansion').innerHTML,/推断/);
+ assert.match(nodes.get('hciExpansion').innerHTML,/Samsung Research America/);
+ assert.match(nodes.get('hciExpansion').innerHTML,/New Balance/);
  assert.match(nodes.get('undated').innerHTML,/Figma/);
  assert.equal(run('remaining(curatedJobs()[3])'),'');
  assert.match(run('expansionCard({...payload.items[0],title:"<img onerror=evil()>"})'),/&lt;img/);

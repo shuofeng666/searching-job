@@ -84,6 +84,56 @@
       "deadline": null, "deadline_status": "未列截止日期。", "eligibility_status": "explicit_f1_j1_exclusion"
     }
   ],
+  "brand_items": [
+    {
+      "id": "brand-samsung-ux-motion-2026", "rank": "往期高度相关", "company": "Samsung Research America", "title": "2026 Intern, UX Motion Design Prototyping (Summer)",
+      "region": "US", "location": "Mountain View, California", "year": 2026,
+      "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8374852002?gh_src=13c38d562us", "source_url": "https://sra.samsung.com/internships/",
+      "status": "historical_official_posting", "status_label": "Summer 2026 往期职位 · 原职位页已失效", "topics": ["HCI", "XR / HRI", "Design Tools", "UX Research"],
+      "evidence": "往期招聘副本明确接受 HCI PhD，涉及 XR 用户体验、motion prototyping、Figma/Unity 和 AR/VR 用户测试；Greenhouse 职位链接目前跳回职位列表。",
+      "match_reason": "与你的 HCI、Unity、交互原型和用户研究经历高度相关，也解释了你记得 Samsung 有相似岗位。",
+      "fit_caveat": "这是 2026 暑期旧职位，不是 2027 opening。Samsung Research America 有实习项目，尚未核实 2027 对应 UX/XR 职位。",
+      "deadline": null, "deadline_status": "往期申请已结束；没有已核实 2027 截止日期。"
+    },
+    {
+      "id": "brand-newbalance-rapidprototyping", "rank": "工具制作相关", "company": "New Balance", "title": "Footwear Rapid Prototyping Intern · R40741",
+      "region": "US", "location": "Lawrence, Massachusetts", "url": "https://newbalance.wd1.myworkdayjobs.com/en-US/Careers/job/Footwear-Rapid-Prototyping-Intern_R40741",
+      "status": "official_posting", "status_label": "官方职位近期可见 · 任期和暑期安排待确认", "topics": ["CAD / Fabrication", "Design Tools"],
+      "evidence": "New Balance 官方 Workday 页面标注 R40741、全职、发布约 24 天；工作包括准备 3D 文件、运营打印与后处理设备，支持鞋类开发。",
+      "match_reason": "运动鞋快速原型与你的 CAD、3D 打印和数字制造经验有关。",
+      "fit_caveat": "没有写成 Summer 2027。第三方称一年期，官方页面未确认任期。工作偏打印运营，HCI/用户研究含量未知；需确认 PhD 资格和工作授权。",
+      "deadline": null, "deadline_status": "页面未列截止日期；发布时间不等于仍在招聘。"
+    },
+    {
+      "id": "brand-nike-emea-2027", "rank": "资格不符", "company": "Nike", "title": "Internship Product Design & Creation · R-92275",
+      "region": "NL", "location": "Hilversum, Netherlands", "year": 2027,
+      "url": "https://careers.nike.com/nike-inc-internship-product-design-creation/job/R-92275",
+      "status": "official_posting", "status_label": "官方 2027 职位 · 地区/资格限制明显", "topics": ["Product Design"],
+      "evidence": "官方职位写明 2027-02-01 开始、六个月，参与鞋服产品概念到上市、消费者洞察和跨团队协作。",
+      "match_reason": "实体产品开发部分关联原型经验，但不是数字 HCI 或 UX Research。",
+      "fit_caveat": "要求就读荷兰大学，或为 EU/EEA 公民并在国外大学就读；按目前已知的 Cornell 在读和中国公民信息，很可能不符合。",
+      "deadline": null, "deadline_status": "官方写 no later than 11 October 2027，与 2027-02-01 开始日期冲突，不能依赖。"
+    },
+    {
+      "id": "brand-adidas-portland-2027", "rank": "周期追踪", "company": "adidas", "title": "Portland Summer 2027 Internship cycle · Product Development & Design",
+      "region": "US", "location": "Portland, Oregon", "year": 2027,
+      "url": "https://careers.adidas-group.com/teams/students/internships-students", "source_url": "https://careers.adidas-group.com/jobs?keywords=internship&locale=en",
+      "status": "program_cycle_verified_no_matching_job", "status_label": "官方招聘周期已确认 · 无匹配具体职位", "topics": ["Product Design", "Design Tools"],
+      "evidence": "官方页面称 Portland 2027 夏季周期在 2027 年 1 月招聘，可涵盖 Product Development & Design。North America FAQ 要求全日制本科生，预计毕业时间 2026-12 至 2027-08。",
+      "match_reason": "鞋服产品设计可能和实体设计、原型背景有关。",
+      "fit_caveat": "目前没有具体 HCI 职位；本科及毕业时间要求与当前 PhD 阶段不匹配。",
+      "deadline": null, "deadline_status": "官方只列招聘月份，未列具体截止日。"
+    },
+    {
+      "id": "brand-nike-ux-watch-2027", "rank": "追踪", "company": "Nike", "title": "2027 US internships · Digital Product Design / UX Research",
+      "region": "US", "location": "依具体岗位而定", "url": "https://careers.nike.com/jobs",
+      "status": "watch_only", "status_label": "官方招聘入口已核查 · 未核实适配 PhD 的职位", "topics": ["HCI", "UX Research", "Design Tools"],
+      "evidence": "Nike 官方说明美国暑期实习通常在前一年 9 月至当年 1 月发布。本轮未找到符合当前博士阶段的 2027 HCI/UX 具体职位。",
+      "match_reason": "运动数字产品、训练体验和可穿戴交互是合理的研究应用场景，属于方向判断，不是岗位证据。",
+      "fit_caveat": "只在正式职位明确接受 graduate/PhD 并写明 UX Research、wearable 或 interaction 内容时，才转为申请线索。",
+      "deadline": null, "deadline_status": "无适配具体岗位或截止日期已核实。"
+    }
+  ],
   "watch_items": [
     {
       "id": "hci-nvidia-infrastructure-2027", "rank": "核验", "company": "NVIDIA", "title": "Product Design Intern, AI Infrastructure - Summer 2027 · JR2025784",

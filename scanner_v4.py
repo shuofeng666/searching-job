@@ -20,7 +20,8 @@ COMPANIES = {**BASE_COMPANIES, 'Figma': ('figma.com',), 'Notion': ('notion.com',
  'Lyft': ('lyft.com',), 'Delta': ('delta.com',), 'Canva': ('canva.com', 'lifeatcanva.com'),
  'Miro': ('miro.com',), 'Stryker': ('stryker.com',), 'Asana': ('asana.com',),
  'Airtable': ('airtable.com',), 'Dropbox': ('dropbox.com',), 'PTC': ('ptc.com',),
- 'Unity': ('unity.com',), 'Epic Games': ('epicgames.com',)}
+ 'Unity': ('unity.com',), 'Epic Games': ('epicgames.com',), 'Nike': ('nike.com',),
+ 'adidas': ('adidas-group.com', 'adidas.com'), 'New Balance': ('newbalance.com',)}
 ROTATING = tuple(c for c in COMPANIES if c not in CORE)
 TOPICS = (*BASE_TOPICS, 'design research', 'product design creative tools',
           'UX research', 'design technologist', 'human AI prototyping')
@@ -40,7 +41,8 @@ ARTICLE_PATH = re.compile(r'/(?:news|blog|blogs|people|person|publications|publi
 # A Workday board can be a company-owned official job page without an *.company.com URL.
 ATS_HOSTS = {'autodesk.wd1.myworkdayjobs.com': 'Autodesk',
  'nvidia.wd5.myworkdayjobs.com': 'NVIDIA', 'nvidia.eightfold.ai': 'NVIDIA',
- 'careersus-shure.icims.com': 'Shure', 'delta.avature.net': 'Delta'}
+ 'careersus-shure.icims.com': 'Shure', 'delta.avature.net': 'Delta',
+ 'newbalance.wd1.myworkdayjobs.com': 'New Balance'}
 ATS_PATHS = {('job-boards.greenhouse.io', '/figma/'): 'Figma',
  ('job-boards.greenhouse.io', '/lyft/'): 'Lyft',
  ('jobs.ashbyhq.com', '/notion/'): 'Notion'}
