@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "id": "b357354584e56f85653d",
+      "title": "User Experience Research Internship 2027",
+      "company": "ByteDance",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Meta University Internship · Marketing Experience Lab · Meta Ux Research Associate Program · Internship Captions for Insta · Internship Experience on Resume ...",
+      "url": "https://www.tiktok.com/discover/user-experience-research-internship-2027",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-09-29T18:40:45+00:00",
+      "last_seen": "2026-10-02T18:29:48+00:00"
+    },
+    {
       "id": "2d4a4d8738f00a619346",
       "title": "User Experience Design, Research and Content Intern 2027",
       "company": "IBM",
@@ -127,38 +159,6 @@
       ],
       "first_seen": "2026-09-30T18:27:58+00:00",
       "last_seen": "2026-09-30T18:27:58+00:00"
-    },
-    {
-      "id": "b357354584e56f85653d",
-      "title": "User Experience Research Internship 2027",
-      "company": "ByteDance",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "Meta University Internship · Marketing Experience Lab · Meta Ux Research Associate Program · Internship Captions for Insta · Internship Experience on Resume ...",
-      "url": "https://www.tiktok.com/discover/user-experience-research-internship-2027",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "role_track": "research",
-      "reasons": [
-        "Employer URL",
-        "Relevant internship title",
-        "HCI/research or design-method evidence"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified"
-      ],
-      "first_seen": "2026-09-29T18:40:45+00:00",
-      "last_seen": "2026-09-29T18:40:45+00:00"
     },
     {
       "id": "589f4516cc66003119ed",
@@ -358,22 +358,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
+      "checked_at": "2026-10-02T18:29:48+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -387,8 +372,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
+    "Meta": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -396,14 +381,14 @@
         "SG",
         "CA"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 1,
+      "raw_results": 8,
+      "matched": 1,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -417,12 +402,27 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Atlassian": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
-      "region_searched": "US",
+    "Adobe": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "US",
+        "SG",
         "CA",
+        "US",
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Atlassian": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "US",
         "HK"
       ],
       "raw_results": 9,
@@ -432,11 +432,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Salesforce": {
-      "checked_at": "2026-09-25T17:58:57+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "US",
-        "SG"
+        "SG",
+        "US"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -445,20 +445,20 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Roblox": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
+      "checked_at": "2026-10-02T18:29:48+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "CA"
       ],
-      "raw_results": 9,
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Sony": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
+      "checked_at": "2026-10-02T18:29:48+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -582,15 +582,18 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Samsung": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 8,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
       "checked_at": "2026-09-30T18:27:58+00:00",
@@ -622,9 +625,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Honda": {
-      "checked_at": "2026-09-24T17:52:52+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "CA",
         "SG"
@@ -960,6 +964,30 @@
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Topic: product design creative tools": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Topic: UX research": {
+      "checked_at": "2026-10-02T18:29:48+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     }
   },
   "targets": [
@@ -1176,6 +1204,16 @@
   ],
   "runs": [
     {
+      "at": "2026-10-02T18:29:48+00:00",
+      "requests": 12,
+      "received": 96,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-10-01T18:55:40+00:00",
       "requests": 12,
       "received": 97,
@@ -1383,7 +1421,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-01T18:55:40+00:00",
+  "last_scan": "2026-10-02T18:29:48+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
