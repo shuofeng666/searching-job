@@ -358,13 +358,13 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-02T18:29:48+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "SG",
-        "CA",
-        "US"
+        "CA"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -373,22 +373,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-10-02T18:29:48+00:00",
-      "region_searched": "US",
-      "recent_regions": [
-        "US",
-        "HK",
-        "SG",
-        "CA"
-      ],
-      "raw_results": 8,
-      "matched": 1,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Autodesk": {
-      "checked_at": "2026-10-02T18:29:48+00:00",
+      "checked_at": "2026-10-03T17:20:09+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -402,8 +387,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-02T18:29:48+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-03T17:20:09+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -411,11 +396,24 @@
         "US",
         "HK"
       ],
-      "raw_results": 9,
+      "raw_results": 6,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
+        "SG",
+        "CA",
+        "US"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Atlassian": {
       "checked_at": "2026-10-02T18:29:48+00:00",
@@ -640,9 +638,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Spotify": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "CA",
         "HK"
       ],
@@ -707,9 +706,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "HP": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "SG",
         "US"
       ],
@@ -720,11 +720,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "ByteDance": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "HK",
         "SG",
+        "HK",
         "CA"
       ],
       "raw_results": 9,
@@ -734,11 +734,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Tencent": {
-      "checked_at": "2026-09-28T03:35:29+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "HK",
       "recent_regions": [
-        "US",
         "HK",
+        "US",
         "CA"
       ],
       "raw_results": 9,
@@ -748,7 +748,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Huawei": {
-      "checked_at": "2026-09-27T17:48:03+00:00",
+      "checked_at": "2026-10-03T17:20:09+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -836,12 +836,13 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: human AI prototyping": {
-      "checked_at": "2026-09-28T20:08:46+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA"
       ],
-      "raw_results": 9,
+      "raw_results": 7,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -984,6 +985,30 @@
         "SG"
       ],
       "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Figma": {
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Topic: design technologist": {
+      "checked_at": "2026-10-03T17:20:09+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -1204,6 +1229,18 @@
   ],
   "runs": [
     {
+      "at": "2026-10-03T17:20:09+00:00",
+      "requests": 12,
+      "received": 93,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Adobe: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-10-02T18:29:48+00:00",
       "requests": 12,
       "received": 96,
@@ -1421,7 +1458,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-02T18:29:48+00:00",
+  "last_scan": "2026-10-03T17:20:09+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
