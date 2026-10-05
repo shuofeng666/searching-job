@@ -358,22 +358,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-04T17:37:51+00:00",
-      "region_searched": "CA",
-      "recent_regions": [
-        "CA",
-        "US",
-        "HK",
-        "SG"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-04T17:37:51+00:00",
+      "checked_at": "2026-10-05T21:08:26+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -387,8 +372,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-04T17:37:51+00:00",
+    "Meta": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -396,14 +381,12 @@
         "CA",
         "US"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
     },
-    "Adobe": {
-      "checked_at": "2026-10-04T17:37:51+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -411,11 +394,22 @@
         "SG",
         "CA"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "US",
+        "HK",
+        "SG"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
     },
     "Atlassian": {
       "checked_at": "2026-10-02T18:29:48+00:00",
@@ -471,33 +465,29 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: UX researcher PhD intern": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "US",
       "recent_regions": [
-        "HK",
         "US",
+        "HK",
         "CA"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
     },
     "Topic: collaborative design fabrication research intern": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "HK",
         "US",
-        "CA",
         "SG"
       ],
-      "raw_results": 0,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
     },
     "Amazon archive 2025": {
       "checked_at": "2026-09-17T19:23:59+00:00",
@@ -851,74 +841,70 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Canva": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
-      "region_searched": "US",
-      "recent_regions": [
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Miro": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
-      "region_searched": "CA",
-      "recent_regions": [
-        "CA"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Stryker": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
+      "checked_at": "2026-10-05T21:08:26+00:00",
       "region_searched": "SG",
       "recent_regions": [
+        "SG",
+        "US"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
+    },
+    "Miro": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
+        "CA"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
+    },
+    "Stryker": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US",
         "SG"
       ],
       "matched": null,
       "unresolved": null,
-      "error": "ReadTimeout"
+      "error": "HTTP 429"
     },
     "Asana": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
-      "region_searched": "HK",
-      "recent_regions": [
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Airtable": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
-      "region_searched": "US",
-      "recent_regions": [
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Dropbox": {
-      "checked_at": "2026-09-29T18:40:45+00:00",
+      "checked_at": "2026-10-05T21:08:26+00:00",
       "region_searched": "CA",
       "recent_regions": [
+        "CA",
+        "HK"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
+    },
+    "Airtable": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "US"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
+    },
+    "Dropbox": {
+      "checked_at": "2026-10-05T21:08:26+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
         "CA"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "HTTP 429"
     },
     "Nike": {
       "checked_at": "2026-09-30T18:27:58+00:00",
@@ -1255,6 +1241,28 @@
   ],
   "runs": [
     {
+      "at": "2026-10-05T21:08:26+00:00",
+      "requests": 12,
+      "received": 9,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Meta: HTTP 429",
+        "Autodesk: HTTP 429",
+        "Adobe: HTTP 429",
+        "Canva: HTTP 429",
+        "Miro: HTTP 429",
+        "Stryker: HTTP 429",
+        "Asana: HTTP 429",
+        "Airtable: HTTP 429",
+        "Dropbox: HTTP 429",
+        "Topic: UX researcher PhD intern: HTTP 429",
+        "Topic: collaborative design fabrication research intern: HTTP 429"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-10-04T17:37:51+00:00",
       "requests": 12,
       "received": 99,
@@ -1494,7 +1502,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-04T17:37:51+00:00",
+  "last_scan": "2026-10-05T21:08:26+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
