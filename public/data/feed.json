@@ -358,7 +358,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -373,7 +373,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -381,12 +381,14 @@
         "CA",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -394,12 +396,14 @@
         "SG",
         "CA"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -407,9 +411,11 @@
         "HK",
         "SG"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Atlassian": {
       "checked_at": "2026-10-02T18:29:48+00:00",
@@ -586,25 +592,23 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
         "CA",
         "SG"
       ],
-      "raw_results": 0,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Topic: XR interaction research internship": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-17T16:29:09+00:00",
+      "region_searched": "CA",
       "recent_regions": [
-        "US",
         "CA",
+        "US",
         "SG",
         "HK"
       ],
@@ -841,29 +845,33 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Canva": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Miro": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "CA"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Stryker": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -871,10 +879,10 @@
       ],
       "matched": null,
       "unresolved": null,
-      "error": "HTTP 429"
+      "error": "ReadTimeout"
     },
     "Asana": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -882,21 +890,23 @@
       ],
       "matched": null,
       "unresolved": null,
-      "error": "HTTP 429"
+      "error": "ReadTimeout"
     },
     "Airtable": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 8,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Dropbox": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-17T16:29:09+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -904,7 +914,7 @@
       ],
       "matched": null,
       "unresolved": null,
-      "error": "HTTP 429"
+      "error": "ReadTimeout"
     },
     "Nike": {
       "checked_at": "2026-09-30T18:27:58+00:00",
@@ -1241,6 +1251,21 @@
   ],
   "runs": [
     {
+      "at": "2026-10-17T16:29:09+00:00",
+      "requests": 12,
+      "received": 62,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Stryker: ReadTimeout",
+        "Asana: ReadTimeout",
+        "Dropbox: ReadTimeout",
+        "Topic: creativity support tools research intern: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-10-05T21:08:26+00:00",
       "requests": 12,
       "received": 9,
@@ -1502,7 +1527,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-05T21:08:26+00:00",
+  "last_scan": "2026-10-17T16:29:09+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
