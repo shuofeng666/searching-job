@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "id": "8a06ad31198f2997fb25",
+      "title": "Summer 2027 Internship - Industrial Design Intern - Michigan",
+      "company": "Stryker",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Summer 2027 Internship - Industrial Design Intern - Michigan. Return to ... User-Centered Design Research. Support research activities including trend ...",
+      "url": "https://careers.stryker.com/summer-2027-internship-industrial-design-intern-michigan/job/3C649FE37894FD709387079C73D8FE5C",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "hci_product_design",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-10-01T18:55:40+00:00",
+      "last_seen": "2026-10-18T16:35:02+00:00"
+    },
+    {
       "id": "b357354584e56f85653d",
       "title": "User Experience Research Internship 2027",
       "company": "ByteDance",
@@ -83,38 +115,6 @@
       "open_verified": false,
       "research_team_verified": false,
       "role_track": "research",
-      "reasons": [
-        "Employer URL",
-        "Relevant internship title",
-        "HCI/research or design-method evidence"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified"
-      ],
-      "first_seen": "2026-10-01T18:55:40+00:00",
-      "last_seen": "2026-10-01T18:55:40+00:00"
-    },
-    {
-      "id": "8a06ad31198f2997fb25",
-      "title": "Summer 2027 Internship - Industrial Design Intern - Michigan",
-      "company": "Stryker",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "Summer 2027 Internship - Industrial Design Intern - Michigan. Return to ... User-Centered Design Research. Support research activities including trend ...",
-      "url": "https://careers.stryker.com/summer-2027-internship-industrial-design-intern-michigan/job/3C649FE37894FD709387079C73D8FE5C",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "role_track": "hci_product_design",
       "reasons": [
         "Employer URL",
         "Relevant internship title",
@@ -358,22 +358,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -387,8 +372,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
+    "Meta": {
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -402,14 +387,29 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "US",
         "HK",
         "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-18T16:35:02+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "CA",
+        "US",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -678,7 +678,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Roblox archive 2025": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US"
@@ -690,16 +690,14 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Sony archive 2026": {
-      "checked_at": "2026-09-20T16:51:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "HP": {
       "checked_at": "2026-10-04T17:37:51+00:00",
@@ -819,7 +817,7 @@
       "error": "ReadTimeout"
     },
     "Epic Games": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -917,7 +915,7 @@
       "error": "ReadTimeout"
     },
     "Nike": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US"
@@ -929,45 +927,42 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "adidas": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA"
       ],
-      "raw_results": 8,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "New Balance": {
-      "checked_at": "2026-09-30T18:27:58+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Topic: design research": {
-      "checked_at": "2026-10-01T18:55:40+00:00",
+      "checked_at": "2026-10-18T16:35:02+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA"
       ],
-      "raw_results": 8,
+      "raw_results": 9,
       "matched": 1,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: product design creative tools": {
-      "checked_at": "2026-10-02T18:29:48+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-18T16:35:02+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA"
       ],
       "raw_results": 0,
@@ -1251,6 +1246,20 @@
   ],
   "runs": [
     {
+      "at": "2026-10-18T16:35:02+00:00",
+      "requests": 12,
+      "received": 72,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "adidas: ReadTimeout",
+        "New Balance: ReadTimeout",
+        "Sony archive 2026: ReadTimeout"
+      ],
+      "status": "partial"
+    },
+    {
       "at": "2026-10-17T16:29:09+00:00",
       "requests": 12,
       "received": 62,
@@ -1527,7 +1536,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-17T16:29:09+00:00",
+  "last_scan": "2026-10-18T16:35:02+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
