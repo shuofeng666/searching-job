@@ -258,6 +258,72 @@
   ],
   "watch_leads": [
     {
+      "id": "54d5f095da4d396705bb",
+      "title": "Intern, Research - Context and Knowledge Systems for AI",
+      "company": "Autodesk",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Autodesk Research – Intelligent Construction. Summer 2027 | 12 weeks ... By the end of the internship, we expect the intern ... PhD Researcher, HCI & Visualization ...",
+      "url": "https://jobs.autodesk.com/careers/job/1443153552456",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-10-22T18:01:52+00:00",
+      "last_seen": "2026-10-22T18:01:52+00:00"
+    },
+    {
+      "id": "0939cb5f49bcb2ada47f",
+      "title": "Graduate Intern, Design and Research – Digital ...",
+      "company": "Delta",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "... delta.com, the Fly Delta app, and internal digital tools. During ... Product Design, Human Factors, Human Computer Interaction ...",
+      "url": "https://delta.avature.net/en_US/careers/JobDetail/Graduate-Intern-Design-and-Research-Digital-Experience-Summer-2027/33850?jobId=33850",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "Sep 3, 2026",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-10-22T18:01:52+00:00",
+      "last_seen": "2026-10-22T18:01:52+00:00"
+    },
+    {
       "id": "dd0edc82bdb9a0d66af1",
       "title": "Research Intern for Visual Computing Group",
       "company": "Microsoft",
@@ -455,22 +521,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-21T18:06:34+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 1,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-21T18:06:34+00:00",
+      "checked_at": "2026-10-22T18:01:52+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -478,12 +529,14 @@
         "CA",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-21T18:06:34+00:00",
+    "Meta": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -497,14 +550,29 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-21T18:06:34+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "US",
         "HK",
         "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 1,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "CA",
+        "US",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -580,7 +648,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: collaborative design fabrication research intern": {
-      "checked_at": "2026-10-05T21:08:26+00:00",
+      "checked_at": "2026-10-22T18:01:52+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -588,9 +656,11 @@
         "US",
         "SG"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "HTTP 429"
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Amazon archive 2025": {
       "checked_at": "2026-09-17T19:23:59+00:00",
@@ -690,16 +760,18 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US",
-        "CA",
-        "SG"
+        "CA"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 0,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: XR interaction research internship": {
       "checked_at": "2026-10-17T16:29:09+00:00",
@@ -1130,6 +1202,78 @@
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Notion": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Shure": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Intuit": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "DoorDash": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Lyft": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Delta": {
+      "checked_at": "2026-10-22T18:01:52+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 1,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     }
   },
   "targets": [
@@ -1345,6 +1489,16 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-10-22T18:01:52+00:00",
+      "requests": 12,
+      "received": 90,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 2,
+      "errors": [],
+      "status": "success"
+    },
     {
       "at": "2026-10-21T18:06:34+00:00",
       "requests": 12,
@@ -1674,7 +1828,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-21T18:06:34+00:00",
+  "last_scan": "2026-10-22T18:01:52+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
