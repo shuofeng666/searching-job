@@ -1,6 +1,70 @@
 {
   "jobs": [
     {
+      "id": "8a06ad31198f2997fb25",
+      "title": "Summer 2027 Internship - Industrial Design Intern - Michigan",
+      "company": "Stryker",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Summer 2027 Internship - Industrial Design Intern - Michigan. Return to ... User-Centered Design Research. Support research activities including trend ...",
+      "url": "https://careers.stryker.com/summer-2027-internship-industrial-design-intern-michigan/job/3C649FE37894FD709387079C73D8FE5C",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "hci_product_design",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-10-01T18:55:40+00:00",
+      "last_seen": "2026-10-23T17:53:48+00:00"
+    },
+    {
+      "id": "475653a45f93a3adeb95",
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "company": "NVIDIA",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "... Design: Research and develop creative and innovative numerical methods for quantization, sparsity, or tensor decomposition grounded in computer arithmetic ...",
+      "url": "https://jobs.nvidia.com/careers/job/893397892835",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-10-23T17:53:48+00:00",
+      "last_seen": "2026-10-23T17:53:48+00:00"
+    },
+    {
       "id": "01c7c9dae8f1e65c1a16",
       "title": "Research Intern, 2027 Summer U.S.",
       "company": "Atlassian",
@@ -127,38 +191,6 @@
       ],
       "first_seen": "2026-10-19T19:21:56+00:00",
       "last_seen": "2026-10-19T19:21:56+00:00"
-    },
-    {
-      "id": "8a06ad31198f2997fb25",
-      "title": "Summer 2027 Internship - Industrial Design Intern - Michigan",
-      "company": "Stryker",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "Summer 2027 Internship - Industrial Design Intern - Michigan. Return to ... User-Centered Design Research. Support research activities including trend ...",
-      "url": "https://careers.stryker.com/summer-2027-internship-industrial-design-intern-michigan/job/3C649FE37894FD709387079C73D8FE5C",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "role_track": "hci_product_design",
-      "reasons": [
-        "Employer URL",
-        "Relevant internship title",
-        "HCI/research or design-method evidence"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified"
-      ],
-      "first_seen": "2026-10-01T18:55:40+00:00",
-      "last_seen": "2026-10-18T16:35:02+00:00"
     },
     {
       "id": "b357354584e56f85653d",
@@ -521,22 +553,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "HK",
-      "recent_regions": [
-        "HK",
-        "SG",
-        "CA",
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
+      "checked_at": "2026-10-23T17:53:48+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -550,8 +567,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
+    "Meta": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -561,12 +578,12 @@
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 1,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -575,6 +592,21 @@
         "HK"
       ],
       "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
+        "SG",
+        "CA",
+        "US"
+      ],
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -774,12 +806,12 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: XR interaction research internship": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA",
         "US",
-        "SG",
         "HK"
       ],
       "raw_results": 0,
@@ -1013,11 +1045,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Canva": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "US",
       "recent_regions": [
-        "SG",
-        "US"
+        "US",
+        "SG"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1026,11 +1058,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Miro": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "CA",
       "recent_regions": [
-        "HK",
-        "CA"
+        "CA",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1039,29 +1071,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Stryker": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "US",
-      "recent_regions": [
-        "US",
-        "SG"
-      ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
-    },
-    "Asana": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
-      "region_searched": "CA",
-      "recent_regions": [
-        "CA",
-        "HK"
-      ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
-    },
-    "Airtable": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
+      "checked_at": "2026-10-23T17:53:48+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -1073,16 +1083,44 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Dropbox": {
-      "checked_at": "2026-10-17T16:29:09+00:00",
+    "Asana": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "CA"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Airtable": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US",
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Dropbox": {
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Nike": {
       "checked_at": "2026-10-18T16:35:02+00:00",
@@ -1117,13 +1155,14 @@
       "error": "ReadTimeout"
     },
     "Topic: design research": {
-      "checked_at": "2026-10-18T16:35:02+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-23T17:53:48+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA"
       ],
       "raw_results": 9,
-      "matched": 1,
+      "matched": 2,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
@@ -1490,6 +1529,16 @@
   ],
   "runs": [
     {
+      "at": "2026-10-23T17:53:48+00:00",
+      "requests": 12,
+      "received": 97,
+      "new_jobs": 1,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-10-22T18:01:52+00:00",
       "requests": 12,
       "received": 90,
@@ -1828,7 +1877,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-22T18:01:52+00:00",
+  "last_scan": "2026-10-23T17:53:48+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
