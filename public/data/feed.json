@@ -322,6 +322,39 @@
   ],
   "watch_leads": [
     {
+      "id": "ae5b231323eae3eb41ef",
+      "title": "Intern, Research - Context and Knowledge Systems for AI",
+      "company": "Autodesk",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Autodesk Research – Intelligent Construction. Summer 2027 | 12 weeks ... By the end of the internship, we expect the intern ... PhD Researcher, HCI & Visualization ...",
+      "url": "https://jobs.autodesk.com/careers/job/1443153552456-intern-research-context-and-knowledge-systems-for-ai-emea-united-kingdom-remote?domain=autodesk.com",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": null,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Year not explicit in job title; placed in research leads"
+      ],
+      "first_seen": "2026-10-28T18:54:52+00:00",
+      "last_seen": "2026-10-28T18:54:52+00:00"
+    },
+    {
       "id": "54d5f095da4d396705bb",
       "title": "Intern, Research - Context and Knowledge Systems for AI",
       "company": "Autodesk",
@@ -585,22 +618,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-27T18:43:58+00:00",
-      "region_searched": "US",
-      "recent_regions": [
-        "US",
-        "HK",
-        "SG",
-        "CA"
-      ],
-      "raw_results": 8,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-27T18:43:58+00:00",
+      "checked_at": "2026-10-28T18:54:52+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -614,8 +632,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-27T18:43:58+00:00",
+    "Meta": {
+      "checked_at": "2026-10-28T18:54:52+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -623,20 +641,35 @@
         "US",
         "HK"
       ],
-      "raw_results": 9,
+      "raw_results": 10,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-27T18:43:58+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-28T18:54:52+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "SG",
         "CA",
         "US"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 1,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "US",
+      "recent_regions": [
+        "US",
+        "HK",
+        "SG",
+        "CA"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -825,29 +858,30 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG",
         "US",
         "CA"
       ],
-      "raw_results": 0,
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: XR interaction research internship": {
-      "checked_at": "2026-10-23T17:53:48+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "SG",
         "CA",
-        "US",
         "HK"
       ],
-      "raw_results": 0,
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -1285,9 +1319,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Notion": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "HK"
       ],
       "raw_results": 9,
@@ -1297,45 +1332,47 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Shure": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Intuit": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA"
       ],
-      "raw_results": 9,
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "DoorDash": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "SG"
       ],
-      "raw_results": 9,
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Lyft": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "HK"
       ],
       "raw_results": 9,
@@ -1345,16 +1382,15 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Delta": {
-      "checked_at": "2026-10-22T18:01:52+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-28T18:54:52+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 1,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Canva archive 2025": {
       "checked_at": "2026-10-25T17:05:03+00:00",
@@ -1594,6 +1630,19 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-10-28T18:54:52+00:00",
+      "requests": 12,
+      "received": 89,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 1,
+      "errors": [
+        "Shure: ReadTimeout",
+        "Delta: ReadTimeout"
+      ],
+      "status": "partial"
+    },
     {
       "at": "2026-10-27T18:43:58+00:00",
       "requests": 12,
@@ -1988,7 +2037,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-27T18:43:58+00:00",
+  "last_scan": "2026-10-28T18:54:52+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
