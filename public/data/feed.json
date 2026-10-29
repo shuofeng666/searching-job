@@ -618,13 +618,13 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-28T18:54:52+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA",
         "US",
-        "HK",
-        "SG"
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -633,22 +633,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-10-28T18:54:52+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 10,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Autodesk": {
-      "checked_at": "2026-10-28T18:54:52+00:00",
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -658,18 +643,33 @@
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 1,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-28T18:54:52+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
         "HK",
         "SG",
         "CA"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "US",
+        "HK",
+        "SG"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1116,7 +1116,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Canva": {
-      "checked_at": "2026-10-25T17:05:03+00:00",
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -1129,63 +1129,61 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Miro": {
-      "checked_at": "2026-10-25T17:05:03+00:00",
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "CA"
       ],
-      "raw_results": 6,
+      "raw_results": 7,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Stryker": {
-      "checked_at": "2026-10-25T17:05:03+00:00",
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
         "SG"
       ],
-      "raw_results": 9,
+      "raw_results": 8,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Asana": {
-      "checked_at": "2026-10-25T17:05:03+00:00",
+      "checked_at": "2026-10-29T18:59:13+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "HK"
       ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
     },
     "Airtable": {
-      "checked_at": "2026-10-23T17:53:48+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "US",
-        "SG"
+        "SG",
+        "US"
       ],
-      "raw_results": 9,
+      "raw_results": 1,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Dropbox": {
-      "checked_at": "2026-10-23T17:53:48+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "HK",
       "recent_regions": [
-        "CA",
-        "HK"
+        "HK",
+        "CA"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1228,27 +1226,28 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: design research": {
-      "checked_at": "2026-10-23T17:53:48+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "CA"
       ],
       "raw_results": 9,
-      "matched": 2,
+      "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: product design creative tools": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-10-29T18:59:13+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "HK",
-        "SG",
-        "CA"
+        "SG"
       ],
-      "raw_results": 1,
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
@@ -1630,6 +1629,18 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-10-29T18:59:13+00:00",
+      "requests": 12,
+      "received": 88,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Asana: ReadTimeout"
+      ],
+      "status": "partial"
+    },
     {
       "at": "2026-10-28T18:54:52+00:00",
       "requests": 12,
@@ -2037,7 +2048,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-28T18:54:52+00:00",
+  "last_scan": "2026-10-29T18:59:13+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
