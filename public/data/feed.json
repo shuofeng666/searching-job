@@ -618,22 +618,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-10-29T18:59:13+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "CA",
-        "US",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-10-29T18:59:13+00:00",
+      "checked_at": "2026-10-30T18:39:26+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -647,8 +632,8 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-10-29T18:59:13+00:00",
+    "Meta": {
+      "checked_at": "2026-10-30T18:39:26+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -662,14 +647,29 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Adobe": {
-      "checked_at": "2026-10-29T18:59:13+00:00",
+    "Autodesk": {
+      "checked_at": "2026-10-30T18:39:26+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "US",
         "HK",
         "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Adobe": {
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "CA",
+        "US",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1066,24 +1066,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "PTC": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "HK",
       "recent_regions": [
-        "CA",
-        "HK"
-      ],
-      "raw_results": 9,
-      "matched": 1,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Unity": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "US"
+        "HK",
+        "CA"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1091,16 +1078,31 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Epic Games": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "HK",
+    "Unity": {
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "US",
       "recent_regions": [
-        "HK",
-        "CA"
+        "US",
+        "SG"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 8,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Epic Games": {
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "HK"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: human AI prototyping": {
       "checked_at": "2026-10-25T17:05:03+00:00",
@@ -1192,19 +1194,23 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Nike": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "adidas": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "CA"
       ],
       "raw_results": 9,
@@ -1214,9 +1220,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "New Balance": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "SG"
       ],
       "raw_results": 9,
@@ -1254,9 +1261,10 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: UX research": {
-      "checked_at": "2026-10-24T16:40:33+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "US",
         "SG"
       ],
@@ -1280,12 +1288,12 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: design technologist": {
-      "checked_at": "2026-10-25T17:05:03+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-10-30T18:39:26+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "US",
-        "HK",
-        "SG"
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -1629,6 +1637,16 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-10-30T18:39:26+00:00",
+      "requests": 12,
+      "received": 107,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
     {
       "at": "2026-10-29T18:59:13+00:00",
       "requests": 12,
@@ -2048,7 +2066,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-10-29T18:59:13+00:00",
+  "last_scan": "2026-10-30T18:39:26+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
