@@ -1,6 +1,41 @@
 {
-  "postings": [],
-  "last_scan": "2026-11-21T20:08:48+00:00",
+  "postings": [
+    {
+      "id": "0bb503d2bd9998875d49",
+      "title": "User Experience Research Intern (May 2026) at Google",
+      "company": "Google",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Join Google as a User Experience Research Intern to design and conduct user research, collaborating across teams to drive user-centric product decisions.",
+      "url": "https://www.google.com/goto?url=CAESmwEBxCJF1-ddxnJI_iG4Tr2e051gBSVfBvB7R95CPdzpRP7Y3E9hnipnxmmGCy3CSNHP7Aqzd5mDnzWuY4DLbusywBMlf3JgD3MpKKqJjXo0fUWw-ksvjUf2zcvRueYno1YQC7Ft-QQnwU7ilAVhmjhKcP9yi_3YWsVWwhEIOQw2Qrkrlj4ZVKQamuWtLjRmZFFZzcOdH01Mj0LKcg",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2026,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified",
+        "Historical posting only; 2027 opening not implied"
+      ],
+      "historical_only": true,
+      "first_seen": "2026-11-22T20:23:28+00:00",
+      "last_seen": "2026-11-22T20:23:28+00:00"
+    }
+  ],
+  "last_scan": "2026-11-22T20:23:28+00:00",
   "years": [
     2025,
     2026
