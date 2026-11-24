@@ -30,17 +30,17 @@
         "No application deadline verified"
       ],
       "first_seen": "2026-11-19T21:38:52+00:00",
-      "last_seen": "2026-11-24T00:59:30+00:00"
+      "last_seen": "2026-11-24T23:03:51+00:00"
     },
     {
-      "id": "8abdfe0c0d880704f9a5",
-      "title": "User Experience Research Intern, PhD, Summer 2027",
-      "company": "Google",
+      "id": "28402ca11327a515cd47",
+      "title": "UX Researcher Intern – Summer 2027 - Job ID: 10592767",
+      "company": "Amazon",
       "region": "",
       "location": "Location not verified",
       "kind": "web",
-      "description": "Google is a global company and, in order to facilitate efficient collaboration and communication globally, English proficiency is a requirement for this ...",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/137409539979780806-user-experience-research-intern-phd-summer-2027",
+      "description": "An internship at Amazon means real responsibility from day one. You'll build ... As a UX Research Intern you will need to think strategically, be ...",
+      "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
       "source": "Employer-domain search result; posting not verified",
       "source_date": "",
       "deadline": null,
@@ -62,17 +62,17 @@
         "No application deadline verified"
       ],
       "first_seen": "2026-11-24T00:59:30+00:00",
-      "last_seen": "2026-11-24T00:59:30+00:00"
+      "last_seen": "2026-11-24T23:03:51+00:00"
     },
     {
-      "id": "28402ca11327a515cd47",
-      "title": "UX Researcher Intern – Summer 2027 - Job ID: 10592767",
-      "company": "Amazon",
+      "id": "8abdfe0c0d880704f9a5",
+      "title": "User Experience Research Intern, PhD, Summer 2027",
+      "company": "Google",
       "region": "",
       "location": "Location not verified",
       "kind": "web",
-      "description": "An internship at Amazon means real responsibility from day one. You'll build ... As a UX Research Intern you will need to think strategically, be ...",
-      "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
+      "description": "Google is a global company and, in order to facilitate efficient collaboration and communication globally, English proficiency is a requirement for this ...",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/137409539979780806-user-experience-research-intern-phd-summer-2027",
       "source": "Employer-domain search result; posting not verified",
       "source_date": "",
       "deadline": null,
@@ -1376,7 +1376,7 @@
         "Year not explicit in job title; placed in research leads"
       ],
       "first_seen": "2026-11-24T00:59:30+00:00",
-      "last_seen": "2026-11-24T00:59:30+00:00"
+      "last_seen": "2026-11-24T23:03:51+00:00"
     },
     {
       "id": "11529ffe40f2f1bac035",
@@ -4117,7 +4117,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -4132,7 +4132,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -4147,7 +4147,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -4162,7 +4162,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -4245,7 +4245,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: collaborative design fabrication research intern": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -4274,7 +4274,7 @@
       "error": null
     },
     "Apple": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -4282,14 +4282,14 @@
         "US",
         "SG"
       ],
-      "raw_results": 8,
+      "raw_results": 9,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "NVIDIA": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
@@ -4304,7 +4304,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "IBM": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -4318,7 +4318,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Amazon": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -4331,7 +4331,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Snap": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
@@ -4359,7 +4359,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: creativity support tools research intern": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -4525,7 +4525,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Google": {
-      "checked_at": "2026-11-24T00:59:30+00:00",
+      "checked_at": "2026-11-24T23:03:51+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -4534,7 +4534,7 @@
         "HK"
       ],
       "raw_results": 9,
-      "matched": 1,
+      "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
@@ -5193,6 +5193,16 @@
   ],
   "runs": [
     {
+      "at": "2026-11-24T23:03:51+00:00",
+      "requests": 12,
+      "received": 90,
+      "new_jobs": 0,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
+    {
       "at": "2026-11-24T00:59:30+00:00",
       "requests": 12,
       "received": 89,
@@ -5796,7 +5806,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-11-24T00:59:30+00:00",
+  "last_scan": "2026-11-24T23:03:51+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
