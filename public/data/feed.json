@@ -1,6 +1,102 @@
 {
   "jobs": [
     {
+      "id": "77887c201761f7fda546",
+      "title": "2027 Intern - Research Scientist",
+      "company": "Adobe",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Mentorship & Impact: 1:1 mentorship from senior Adobe research scientists, with a direct pipeline to transfer groundbreaking ideas to creative tools used by ...",
+      "url": "https://careers.adobe.com/us/en/job/R173345/2027-Intern-Research-Scientist",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-11-19T21:38:52+00:00",
+      "last_seen": "2026-11-26T22:24:22+00:00"
+    },
+    {
+      "id": "28402ca11327a515cd47",
+      "title": "UX Researcher Intern – Summer 2027 - Job ID: 10592767",
+      "company": "Amazon",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "As a UX Research Intern you will need to think strategically, be creative, and negotiate design solutions in relation to business goals. Help collect and ...",
+      "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-11-24T00:59:30+00:00",
+      "last_seen": "2026-11-26T22:24:22+00:00"
+    },
+    {
+      "id": "13ab3778e885f9c65735",
+      "title": "UX Research Intern, Quantitative (Summer 2027)",
+      "company": "Meta",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Experience in conducting UX research, experience conducting applied and/or product related research · Experience with primary data collection · Experience with ...",
+      "url": "https://www.metacareers.com/profile/job_details/29109871588622645",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-11-26T22:24:22+00:00",
+      "last_seen": "2026-11-26T22:24:22+00:00"
+    },
+    {
       "id": "475653a45f93a3adeb95",
       "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
       "company": "NVIDIA",
@@ -95,70 +191,6 @@
       ],
       "first_seen": "2026-11-25T22:36:26+00:00",
       "last_seen": "2026-11-25T22:36:26+00:00"
-    },
-    {
-      "id": "77887c201761f7fda546",
-      "title": "2027 Intern - Research Scientist",
-      "company": "Adobe",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "Mentorship & Impact: 1:1 mentorship from senior Adobe research scientists, with a direct pipeline to transfer groundbreaking ideas to creative tools used by ...",
-      "url": "https://careers.adobe.com/us/en/job/R173345/2027-Intern-Research-Scientist",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "role_track": "research",
-      "reasons": [
-        "Employer URL",
-        "Relevant internship title",
-        "HCI/research or design-method evidence"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified"
-      ],
-      "first_seen": "2026-11-19T21:38:52+00:00",
-      "last_seen": "2026-11-24T23:03:51+00:00"
-    },
-    {
-      "id": "28402ca11327a515cd47",
-      "title": "UX Researcher Intern – Summer 2027 - Job ID: 10592767",
-      "company": "Amazon",
-      "region": "",
-      "location": "Location not verified",
-      "kind": "web",
-      "description": "An internship at Amazon means real responsibility from day one. You'll build ... As a UX Research Intern you will need to think strategically, be ...",
-      "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
-      "source": "Employer-domain search result; posting not verified",
-      "source_date": "",
-      "deadline": null,
-      "deadline_status": "Unverified",
-      "year": 2027,
-      "score": null,
-      "verification_status": "search_lead",
-      "open_verified": false,
-      "research_team_verified": false,
-      "role_track": "research",
-      "reasons": [
-        "Employer URL",
-        "Relevant internship title",
-        "HCI/research or design-method evidence"
-      ],
-      "flags": [
-        "Employer-domain search result, not an independently verified open position",
-        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
-        "No application deadline verified"
-      ],
-      "first_seen": "2026-11-24T00:59:30+00:00",
-      "last_seen": "2026-11-24T23:03:51+00:00"
     },
     {
       "id": "8abdfe0c0d880704f9a5",
@@ -4149,12 +4181,12 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-11-25T22:36:26+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA",
         "US",
-        "SG",
         "HK"
       ],
       "raw_results": 9,
@@ -4164,12 +4196,12 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Meta": {
-      "checked_at": "2026-11-25T22:36:26+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG",
         "CA",
-        "HK",
         "US"
       ],
       "raw_results": 9,
@@ -4179,12 +4211,12 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Autodesk": {
-      "checked_at": "2026-11-25T22:36:26+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "SG",
-        "US",
         "CA"
       ],
       "raw_results": 9,
@@ -4194,16 +4226,16 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-11-25T22:36:26+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "CA",
       "recent_regions": [
+        "CA",
         "US",
         "HK",
-        "CA",
         "SG"
       ],
       "raw_results": 9,
-      "matched": 0,
+      "matched": 1,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
@@ -4436,11 +4468,11 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Spotify": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "SG",
       "recent_regions": [
-        "US",
         "SG",
+        "US",
         "CA",
         "HK"
       ],
@@ -4503,37 +4535,12 @@
       "error": "ReadTimeout"
     },
     "HP": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
-      "region_searched": "CA",
-      "recent_regions": [
-        "CA",
-        "HK",
-        "SG",
-        "US"
-      ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
-    },
-    "ByteDance": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
-      "region_searched": "SG",
-      "recent_regions": [
-        "SG",
-        "US",
-        "HK",
-        "CA"
-      ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
-    },
-    "Tencent": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
+      "checked_at": "2026-11-26T22:24:22+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
         "CA",
+        "SG",
         "US"
       ],
       "raw_results": 9,
@@ -4542,17 +4549,46 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Huawei": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
+    "ByteDance": {
+      "checked_at": "2026-11-26T22:24:22+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
         "SG",
+        "HK",
         "CA"
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 2,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Tencent": {
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "CA",
+      "recent_regions": [
+        "CA",
+        "HK",
+        "US"
+      ],
+      "raw_results": 8,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Huawei": {
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "US",
+        "CA"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
@@ -4784,45 +4820,48 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: product design creative tools": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "US",
       "recent_regions": [
+        "US",
         "HK",
         "SG",
         "CA"
       ],
-      "raw_results": 9,
+      "raw_results": 1,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: UX research": {
-      "checked_at": "2026-11-21T20:08:48+00:00",
-      "region_searched": "HK",
-      "recent_regions": [
-        "HK",
-        "CA",
-        "US",
-        "SG"
-      ],
-      "raw_results": 9,
-      "matched": 1,
-      "unresolved": 1,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Figma": {
-      "checked_at": "2026-11-20T21:14:35+00:00",
+      "checked_at": "2026-11-26T22:24:22+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "HK",
+        "US",
         "SG"
       ],
-      "matched": null,
-      "unresolved": null,
-      "error": "ReadTimeout"
+      "raw_results": 9,
+      "matched": 2,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
+    },
+    "Figma": {
+      "checked_at": "2026-11-26T22:24:22+00:00",
+      "region_searched": "HK",
+      "recent_regions": [
+        "HK",
+        "CA",
+        "SG"
+      ],
+      "raw_results": 9,
+      "matched": 0,
+      "unresolved": 0,
+      "error": null,
+      "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: design technologist": {
       "checked_at": "2026-11-21T20:08:48+00:00",
@@ -5224,6 +5263,16 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-26T22:24:22+00:00",
+      "requests": 12,
+      "received": 99,
+      "new_jobs": 1,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [],
+      "status": "success"
+    },
     {
       "at": "2026-11-25T22:36:26+00:00",
       "requests": 12,
@@ -5848,7 +5897,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-11-25T22:36:26+00:00",
+  "last_scan": "2026-11-26T22:24:22+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
