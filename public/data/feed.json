@@ -1,6 +1,70 @@
 {
   "jobs": [
     {
+      "id": "d393b1af27ceb62e9f00",
+      "title": "2027 Intern - Research Scientist",
+      "company": "Adobe",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Mentorship & Impact: 1:1 mentorship from senior Adobe research scientists, with a direct pipeline to transfer groundbreaking ideas to creative tools used by ...",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR173345EXTERNALENUS/2027-Intern-Research-Scientist",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "research",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-11-28T21:00:15+00:00",
+      "last_seen": "2026-11-28T21:00:15+00:00"
+    },
+    {
+      "id": "a6df4a9e49dcad0efc09",
+      "title": "Summer 2027 Intern - Industrial Design, User Experience",
+      "company": "Stryker",
+      "region": "",
+      "location": "Location not verified",
+      "kind": "web",
+      "description": "Contribute to the definition of form, features, and product look/feel aligned to Stryker's visual brand language. User-Centered Design Research‑Centered Design ...",
+      "url": "https://careers.stryker.com/industrial-design-user-experience-intern-portage-mi/job/2F4BFDF7E0DF1E10178FF5123A7BD0CF",
+      "source": "Employer-domain search result; posting not verified",
+      "source_date": "",
+      "deadline": null,
+      "deadline_status": "Unverified",
+      "year": 2027,
+      "score": null,
+      "verification_status": "search_lead",
+      "open_verified": false,
+      "research_team_verified": false,
+      "role_track": "hci_product_design",
+      "reasons": [
+        "Employer URL",
+        "Relevant internship title",
+        "HCI/research or design-method evidence"
+      ],
+      "flags": [
+        "Employer-domain search result, not an independently verified open position",
+        "Check 2027 summer dates, PhD eligibility, research mentor and work authorization",
+        "No application deadline verified"
+      ],
+      "first_seen": "2026-11-28T21:00:15+00:00",
+      "last_seen": "2026-11-28T21:00:15+00:00"
+    },
+    {
       "id": "77887c201761f7fda546",
       "title": "2027 Intern - Research Scientist",
       "company": "Adobe",
@@ -4213,22 +4277,7 @@
   ],
   "coverage": {
     "Microsoft": {
-      "checked_at": "2026-11-27T22:04:41+00:00",
-      "region_searched": "HK",
-      "recent_regions": [
-        "HK",
-        "SG",
-        "CA",
-        "US"
-      ],
-      "raw_results": 9,
-      "matched": 0,
-      "unresolved": 0,
-      "error": null,
-      "meaning": "One search query this run; recent_regions records up to four latest target regions"
-    },
-    "Meta": {
-      "checked_at": "2026-11-27T22:04:41+00:00",
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -4242,14 +4291,27 @@
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
-    "Autodesk": {
-      "checked_at": "2026-11-27T22:04:41+00:00",
+    "Meta": {
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "US",
         "HK",
         "SG"
+      ],
+      "matched": null,
+      "unresolved": null,
+      "error": "ReadTimeout"
+    },
+    "Autodesk": {
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "SG",
+      "recent_regions": [
+        "SG",
+        "CA",
+        "US",
+        "HK"
       ],
       "raw_results": 9,
       "matched": 0,
@@ -4258,13 +4320,13 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Adobe": {
-      "checked_at": "2026-11-27T22:04:41+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "SG",
         "CA",
-        "US",
-        "HK"
+        "US"
       ],
       "raw_results": 9,
       "matched": 1,
@@ -4515,27 +4577,27 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: HCI research intern": {
-      "checked_at": "2026-11-22T20:23:28+00:00",
-      "region_searched": "CA",
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "SG",
       "recent_regions": [
+        "SG",
         "CA",
         "HK",
-        "US",
-        "SG"
+        "US"
       ],
       "raw_results": 9,
       "matched": 0,
-      "unresolved": 6,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Topic: human AI interaction research internship": {
-      "checked_at": "2026-11-17T21:48:34+00:00",
-      "region_searched": "US",
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "HK",
       "recent_regions": [
+        "HK",
         "US",
         "CA",
-        "HK",
         "SG"
       ],
       "raw_results": 0,
@@ -4720,7 +4782,7 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Canva": {
-      "checked_at": "2026-11-04T20:27:02+00:00",
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "US",
       "recent_regions": [
         "US",
@@ -4733,33 +4795,33 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Miro": {
-      "checked_at": "2026-11-04T20:27:02+00:00",
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "CA",
       "recent_regions": [
         "CA",
         "HK"
       ],
-      "raw_results": 9,
+      "raw_results": 4,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Stryker": {
-      "checked_at": "2026-11-04T20:27:02+00:00",
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "SG",
       "recent_regions": [
         "SG",
         "US"
       ],
-      "raw_results": 7,
-      "matched": 0,
+      "raw_results": 9,
+      "matched": 1,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Asana": {
-      "checked_at": "2026-11-04T20:27:02+00:00",
+      "checked_at": "2026-11-28T21:00:15+00:00",
       "region_searched": "HK",
       "recent_regions": [
         "HK",
@@ -4772,28 +4834,28 @@
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Airtable": {
-      "checked_at": "2026-11-22T20:23:28+00:00",
-      "region_searched": "SG",
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "US",
       "recent_regions": [
-        "SG",
-        "US"
+        "US",
+        "SG"
       ],
-      "raw_results": 8,
+      "raw_results": 1,
       "matched": 0,
       "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
     "Dropbox": {
-      "checked_at": "2026-11-22T20:23:28+00:00",
-      "region_searched": "HK",
+      "checked_at": "2026-11-28T21:00:15+00:00",
+      "region_searched": "CA",
       "recent_regions": [
-        "HK",
-        "CA"
+        "CA",
+        "HK"
       ],
       "raw_results": 9,
-      "matched": 2,
-      "unresolved": 1,
+      "matched": 0,
+      "unresolved": 0,
       "error": null,
       "meaning": "One search query this run; recent_regions records up to four latest target regions"
     },
@@ -5296,6 +5358,18 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-28T21:00:15+00:00",
+      "requests": 12,
+      "received": 77,
+      "new_jobs": 2,
+      "new_historical": 0,
+      "new_unconfirmed": 0,
+      "errors": [
+        "Meta: ReadTimeout"
+      ],
+      "status": "partial"
+    },
     {
       "at": "2026-11-27T22:04:41+00:00",
       "requests": 12,
@@ -5940,7 +6014,7 @@
       "status": "partial"
     }
   ],
-  "last_scan": "2026-11-27T22:04:41+00:00",
+  "last_scan": "2026-11-28T21:00:15+00:00",
   "scanner_version": 4,
   "data_note": "Research search leads are not verified open jobs; 2027 is title evidence only."
 }
